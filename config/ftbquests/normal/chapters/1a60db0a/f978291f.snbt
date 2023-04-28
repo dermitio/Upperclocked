@@ -1,0 +1,24 @@
+{
+	x: -12.5d,
+	y: -5.5d,
+	text: [
+		"A mobile crafting table.",
+		"",
+		"Yep, thats it."
+	],
+	dependencies: [
+		"e81f565d"
+	],
+	tasks: [{
+		uid: "14a503aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_crafter_on_a_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

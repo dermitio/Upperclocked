@@ -1,0 +1,34 @@
+{
+	title: "A cozy block",
+	x: -7.5d,
+	y: -3.5d,
+	text: [
+		"Let us smelt some of those items.",
+		"",
+		"coal nuggets smelt 1 item at a time so if you dont have  8x amount of items just use coal nuggets."
+	],
+	dependencies: [
+		"1575b7a0"
+	],
+	tasks: [{
+		uid: "28629f8e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "a993e801",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "inventorypets:nugget_coal"
+		},
+		count: 64
+	}]
+}

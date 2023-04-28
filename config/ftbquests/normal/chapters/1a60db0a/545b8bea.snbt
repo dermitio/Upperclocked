@@ -1,0 +1,116 @@
+{
+	title: "Tinker's Constuct",
+	x: -12.5d,
+	y: -1.5d,
+	text: [
+		"Who needs boring tools when you can have highly customizible epic tools ?",
+		"",
+		"Tinker's lets you build tools out of basiclly anything you can read the books for more info on what each metarial does."
+	],
+	dependencies: [
+		"e81f565d"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "80c02c2c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"wizardryutils:summoneditemdata": {}
+					},
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "c427f803",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"wizardryutils:summoneditemdata": {}
+					},
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "a793e167",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:tooltables",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "3acb19af",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "blueslime"
+			}
+		}
+	},
+	{
+		uid: "2f1dd0f7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "stconmythril"
+			}
+		}
+	},
+	{
+		uid: "22b228a2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:binding",
+			tag: {
+				Material: "copper"
+			}
+		}
+	},
+	{
+		uid: "404f659b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:book"
+		}
+	}]
+}

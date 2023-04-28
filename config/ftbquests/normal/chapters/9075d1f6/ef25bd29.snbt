@@ -1,0 +1,24 @@
+{
+	title: "\"Storage for days\"",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "refinedstorage:controller",
+		tag: {
+			Energy: 32000
+		},
+		Damage: 1s
+	},
+	x: -6.5d,
+	y: -7.5d,
+	text: [
+		"Storage is important so lets have un-needed amounts of it !",
+		"",
+		"This entire stage is optional."
+	],
+	tasks: [{
+		uid: "4b8a3db1",
+		type: "checkmark"
+	}]
+}

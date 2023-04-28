@@ -1,0 +1,25 @@
+{
+	title: "Free but painfull",
+	x: -0.5d,
+	y: -1.5d,
+	text: [
+		"Welcome to buildcraft !",
+		"",
+		"Buildcraft lets you create great systems that almost all have better alternatives...",
+		"",
+		"But hey, you at least got the good ol' quarry !"
+	],
+	dependencies: [
+		"fe8c57fd"
+	],
+	tasks: [{
+		uid: "c1cdedc7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftcore:engine"
+		}]
+	}]
+}

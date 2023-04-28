@@ -1,0 +1,30 @@
+{
+	title: "Your best friend",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "minecraft:cobblestone"
+	},
+	x: -10.0d,
+	y: -3.5d,
+	text: [
+		"Do I need to say anything ?",
+		"",
+		"Like it is cobblestone you need it for everything."
+	],
+	dependencies: [
+		"e81f565d"
+	],
+	tasks: [{
+		uid: "1575b7a0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}]
+}

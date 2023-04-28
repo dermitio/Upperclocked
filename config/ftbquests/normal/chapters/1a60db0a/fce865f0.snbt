@@ -1,0 +1,73 @@
+{
+	title: "Ingots of life !",
+	x: -7.5d,
+	y: 0.5d,
+	text: [
+		"OH BOY !",
+		"",
+		"Copper,tin and lead are always needed there is no doubt but myhtril and adamentiun are really special.",
+		"",
+		"adamentium is going to be a good armor material but myhtril is a tool metal use this info wisely."
+	],
+	dependencies: [
+		"90f9218e"
+	],
+	tasks: [{
+		uid: "45e0be55",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 128s
+		}],
+		count: 8L
+	},
+	{
+		uid: "a812fcb1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 129s
+		}],
+		count: 8L
+	},
+	{
+		uid: "c6c7fde7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 131s
+		}],
+		count: 8L
+	},
+	{
+		uid: "8522f416",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "simpleores:mythril_ingot"
+		}],
+		count: 8L
+	},
+	{
+		uid: "79f19751",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "simpleores:adamantium_ingot"
+		}],
+		count: 4L
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Iron chests",
+	x: -4.5d,
+	y: -4.0d,
+	text: [
+		"Iron chests are chests, but bigger."
+	],
+	dependencies: [
+		"baf40971",
+		"ad77356c"
+	],
+	tasks: [{
+		uid: "a0516c04",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironchest:iron_chest"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironchest:wood_iron_chest_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "122f4c46",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironchest:wood_iron_chest_upgrade"
+		}
+	}]
+}

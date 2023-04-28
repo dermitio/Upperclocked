@@ -1,0 +1,48 @@
+{
+	x: -15.0d,
+	y: -3.5d,
+	text: [
+		"Every minecraft wold starts with wood so go get some"
+	],
+	tasks: [{
+		uid: "af167155",
+		type: "item",
+		title: "As always",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:log"
+		},
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		count: 16L,
+		consume_items: false,
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "e06cfb68",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:log"
+		},
+		count: 32
+	}]
+}

@@ -81,3 +81,36 @@ customization {
   height = 30
 }
 
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/dermitio/Upperclocked%btnaction_splitter_fm%
+  x = 588
+  width = 68
+  action = addbutton
+  actionid = 9d4b3af1-c34a-4a34-9b27-c90cfa4313ae1682672483681
+  y = 258
+  label = Github
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = For bug reports
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 579
+  width = 89
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 6646b021-efc2-4b27-8e23-c3f8bb63cfdb1682674733785
+  y = 244
+  alignment = left
+  height = 17
+}
+

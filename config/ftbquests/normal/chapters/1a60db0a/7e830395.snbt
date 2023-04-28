@@ -1,0 +1,85 @@
+{
+	title: "TC but for armor",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "conarm:chestplate",
+		tag: {
+			StatsOriginal: {
+				Toughness: 1.0f,
+				FreeModifiers: 3,
+				Durability: 361,
+				Defense: 4.0f
+			},
+			Stats: {
+				Toughness: 2.0f,
+				FreeModifiers: 3,
+				Durability: 361,
+				Defense: 4.0f
+			},
+			TinkerData: {
+				Materials: [
+					"bone",
+					"bone",
+					"bone"
+				],
+				Modifiers: [
+					"leveling_armor"
+				]
+			},
+			Modifiers: [{
+				identifier: "calcic_armor",
+				color: -1186113,
+				level: 1
+			},
+			{
+				identifier: "skeletal_armor",
+				color: -1186113,
+				level: 1
+			},
+			{
+				identifier: "leveling_armor",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"calcic_armor",
+				"skeletal_armor",
+				"leveling_armor"
+			]
+		}
+	},
+	x: -10.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	text: [
+		"Why stop with tools ?",
+		"",
+		"Lets make some awsome armor as well !"
+	],
+	dependencies: [
+		"545b8bea"
+	],
+	optional: true,
+	tasks: [{
+		uid: "87c2930f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "conarm:armorstation"
+		}]
+	}],
+	rewards: [{
+		uid: "ed22710b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "conarm:book"
+		}
+	}]
+}

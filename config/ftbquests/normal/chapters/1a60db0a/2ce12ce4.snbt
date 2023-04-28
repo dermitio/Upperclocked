@@ -1,0 +1,20 @@
+{
+	x: -6.0d,
+	y: -6.0d,
+	text: [
+		"This pack has FTB ultimate wich is just a veinminer but better.",
+		"",
+		"you can activate it with \""
+	],
+	tasks: [{
+		uid: "0a98e477",
+		type: "checkmark",
+		title: "FTB ultimate",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:stone_pickaxe"
+		}
+	}]
+}

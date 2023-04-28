@@ -1,0 +1,14 @@
+{
+	title: "Faster production",
+	x: -10.0d,
+	y: -4.5d,
+	text: [
+		"This stage will show you how to do some stuff faster.",
+		"",
+		"This entire stage is optional."
+	],
+	tasks: [{
+		uid: "9247dace",
+		type: "checkmark"
+	}]
+}

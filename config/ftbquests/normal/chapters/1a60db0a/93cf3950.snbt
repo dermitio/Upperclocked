@@ -1,0 +1,46 @@
+{
+	title: "Welcome !",
+	x: -4.0d,
+	y: -6.0d,
+	text: [
+		"This pack will let you experience the mods as they are !"
+	],
+	tasks: [{
+		uid: "328ca732",
+		type: "checkmark",
+		title: "Welcome !",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:lapis_ore"
+		}
+	}],
+	rewards: [{
+		uid: "8ada1b91",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:red_flower",
+			tag: {
+				display: {
+					Name: "Thank you"
+				}
+			},
+			Damage: 4s
+		}
+	},
+	{
+		uid: "f6329fcb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:fancy_frame",
+			Damage: 6s
+		}
+	}]
+}

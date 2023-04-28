@@ -1,0 +1,30 @@
+{
+	title: "Gold chest",
+	x: -2.5d,
+	y: -4.0d,
+	text: [
+		"Gold is better than iron....",
+		"",
+		"This is rare."
+	],
+	dependencies: [
+		"80865b26"
+	],
+	tasks: [{
+		uid: "ff18794f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironchest:iron_chest",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironchest:iron_gold_chest_upgrade"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "A better table of crafting",
+	x: -12.5d,
+	y: -3.5d,
+	text: [
+		"Let us skip the boring crafting table and get a better version with the ability to hold items !",
+		"",
+		"Crafting station also lets you see the inventory of the block next to it."
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"e451e9ba"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b3b2cda3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:tooltables"
+		}]
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Essential for life",
+	x: -7.5d,
+	y: -1.5d,
+	text: [
+		"Iron is probably the most usefull item in minecraft modded or not.",
+		"",
+		"So you better get some."
+	],
+	dependencies: [
+		"90f9218e"
+	],
+	tasks: [{
+		uid: "eae8fe70",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "34fc3f6f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:iron_ingot"
+		},
+		count: 16
+	}]
+}

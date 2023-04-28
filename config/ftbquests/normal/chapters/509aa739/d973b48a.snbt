@@ -1,0 +1,33 @@
+{
+	x: -20.5d,
+	y: -1.5d,
+	text: [
+		"Iron furnice is a basic furnace BUT it smelts stuff for cheaper and faster.",
+		"",
+		"Oh btw small nuggets may not be so efficient with this guy."
+	],
+	dependencies: [
+		"ad77356c",
+		"90f9218e"
+	],
+	tasks: [{
+		uid: "39bdc115",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironfurnaces:iron_furnace_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "ebbed25b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "engineersdecor:factory_hopper"
+		}
+	}]
+}

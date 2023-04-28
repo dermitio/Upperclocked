@@ -1,0 +1,32 @@
+{
+	title: "DSS",
+	x: -15.0d,
+	y: -1.5d,
+	text: [
+		"DSS is a mod that you can gain powerfull moves for you attacks !",
+		"",
+		"Check your settings to see and change the keybinds."
+	],
+	tasks: [{
+		uid: "e29e3b7e",
+		type: "checkmark",
+		title: "DSS",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:iron_sword"
+		}
+	}],
+	rewards: [{
+		uid: "1e060669",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dynamicswordskills:skillorb"
+		},
+		count: 2
+	}]
+}

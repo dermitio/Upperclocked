@@ -1,0 +1,26 @@
+{
+	title: "Storage v1.0",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "minecraft:chest"
+	},
+	x: -10.0d,
+	y: -5.5d,
+	text: [
+		"Chests are the core of storage.",
+		"",
+		"Dont hurry up and make 1000 chests we will have better solutions in the \"Storage\" stage."
+	],
+	tasks: [{
+		uid: "ddc40dec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:chest"
+		}]
+	}]
+}

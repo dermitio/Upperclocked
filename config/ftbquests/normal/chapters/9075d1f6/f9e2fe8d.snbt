@@ -1,0 +1,33 @@
+{
+	title: "Small as a block !",
+	x: -12.5d,
+	y: -4.0d,
+	text: [
+		"Storage crates are really efficient at keeping items.",
+		"",
+		"Might wanna use these for the early game."
+	],
+	dependencies: [
+		"baf40971"
+	],
+	tasks: [{
+		uid: "007f110f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_giant_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "ebc3130a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_small_to_medium_crate_upgrade"
+		}
+	}]
+}

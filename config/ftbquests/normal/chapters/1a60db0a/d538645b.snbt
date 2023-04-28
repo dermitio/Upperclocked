@@ -1,0 +1,109 @@
+{
+	title: "Heart of your life",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "tconstruct:smeltery_controller"
+	},
+	x: -12.5d,
+	y: 0.5d,
+	text: [
+		"Smeltery allows you to smelt and alloy materials.",
+		"",
+		"you can look up the materials and you for more detailed info."
+	],
+	dependencies: [
+		"545b8bea"
+	],
+	tasks: [{
+		uid: "320c564d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "46e6240f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "450b102e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:smeltery_io"
+		}],
+		count: 2L
+	},
+	{
+		uid: "d7d87f4a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:faucet"
+		}],
+		count: 2L
+	},
+	{
+		uid: "e96c6607",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:seared",
+			Damage: 3s
+		}],
+		count: 29L
+	},
+	{
+		uid: "faec8a52",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "2f01385b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:casting",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "c2b2fcb0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "lava"
+			},
+			Damage: 1s
+		},
+		count: 4
+	}]
+}

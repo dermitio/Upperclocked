@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: -6.0d,
+	text: [
+		"This pack has Minetogether.",
+		"",
+		"Minetogether is a chat mod that allows you to speak with people across modpacks !",
+		"",
+		"you can disable it my going to commands on the chat menu"
+	],
+	tasks: [{
+		uid: "d0d3287a",
+		type: "checkmark",
+		title: "Minetogether",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:sign_head",
+			tag: {
+				Material: "rubber"
+			}
+		}
+	}]
+}

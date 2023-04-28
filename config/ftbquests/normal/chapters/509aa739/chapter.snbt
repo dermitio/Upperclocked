@@ -1,0 +1,13 @@
+{
+	title: "Slow progress",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "thermalexpansion:augment",
+		Damage: 128s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

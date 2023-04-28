@@ -1,0 +1,11 @@
+{
+	title: "Luck ?",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "botania:dice"
+	},
+	loot_size: 1,
+	rewards: []
+}
