@@ -1,0 +1,33 @@
+Processing texture: minecraft:textures/gui/title/background/panorama_0.png
+Processing texture: minecraft:textures/gui/title/background/panorama_1.png
+Processing texture: minecraft:textures/gui/title/background/panorama_2.png
+Processing texture: minecraft:textures/gui/title/background/panorama_3.png
+Processing texture: minecraft:textures/gui/title/background/panorama_4.png
+Processing texture: minecraft:textures/gui/title/background/panorama_5.png
+Processing texture: minecraft:textures/gui/title/minecraft.png
+Processing texture: minecraft:textures/gui/title/edition.png
+Processing texture: minecraft:textures/gui/widgets.png
+Detected new text stack trace class: org.zeith.darktheme.internal.GUIAwareFontRenderer
+Detected new text stack trace class: net.minecraft.client.gui.Gui
+Processing texture: forge:textures/gui/version_check_icons.png
+Detected new text stack trace class: de.keksuccino.konkrete.gui.content.AdvancedButton
+Detected new text stack trace class: de.keksuccino.konkrete.gui.content.AdvancedButtonHandler
+Detected new text stack trace class: net.minecraftforge.fml.common.eventhandler.ASMEventHandler
+Detected new text stack trace class: net.minecraftforge.fml.common.eventhandler.EventBus
+Detected new text stack trace class: net.minecraftforge.client.ForgeHooksClient
+Detected new text stack trace class: net.minecraft.client.renderer.EntityRenderer
+Detected new text stack trace class: net.minecraft.client.Minecraft
+Detected new text stack trace class: net.minecraft.client.main.Main
+Detected new text stack trace class: sun.reflect.NativeMethodAccessorImpl
+Detected new text stack trace class: sun.reflect.DelegatingMethodAccessorImpl
+Detected new text stack trace class: java.lang.reflect.Method
+Detected new text stack trace class: net.minecraft.launchwrapper.Launch
+Processing texture: minecraft:textures/gui/options_background.png
+Detected new text stack trace class: net.minecraft.client.gui.GuiTextField
+Detected new text stack trace class: de.keksuccino.konkrete.gui.screens.ConfigScreen
+Processing texture: realms:textures/gui/realms/news_notification_mainscreen.png
+Detected new text stack trace class: de.keksuccino.fancymenu.menu.fancy.helper.ui.compat.AbstractGui
+Detected new text stack trace class: de.keksuccino.fancymenu.menu.fancy.helper.ui.texteditor.TextEditorScreen
+Detected new text stack trace class: de.keksuccino.fancymenu.menu.fancy.helper.layoutcreator.actions.ManageActionsScreen
+Detected new text stack trace class: de.keksuccino.fancymenu.menu.fancy.helper.layoutcreator.actions.BuildActionScreen
+Detected new text stack trace class: de.keksuccino.fancymenu.menu.fancy.helper.ui.scroll.scrollarea.entry.TextListScrollAreaEntry
