@@ -1,0 +1,25 @@
+{
+	title: "Bquartz",
+	x: 0.0d,
+	y: -3.0d,
+	text: [
+		"Black quartz is a great early game material so might wanna look out for it.",
+		"",
+		"And it is used for the machines we will make in AA (actually aditions)"
+	],
+	dependencies: [
+		"90f9218e"
+	],
+	tasks: [{
+		uid: "0b687c4f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_misc",
+			Damage: 5s
+		}],
+		count: 24L
+	}]
+}

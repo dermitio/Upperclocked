@@ -1,40 +1,41 @@
 {
-	title: "Gold chest",
-	x: -2.5d,
+	title: "Diamond chest",
+	x: -0.5d,
 	y: -4.0d,
 	text: [
-		"Gold is better than iron....",
-		"",
-		"This is rare."
+		"we have one more..."
 	],
 	dependencies: [
-		"80865b26"
+		"57ba9da6",
+		"b745aaa4"
 	],
 	tasks: [{
-		uid: "ff18794f",
+		uid: "2ee31d75",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "ironchest:iron_chest",
-			Damage: 1s
+			id: "ironchest:gold_diamond_chest_upgrade"
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "ironchest:iron_gold_chest_upgrade"
-		}]
+			id: "ironchest:iron_chest",
+			Damage: 2s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "2e2bc7e6",
+		uid: "374c5e29",
 		type: "item",
 		item: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "ironchest:iron_gold_chest_upgrade"
+			id: "ironchest:gold_diamond_chest_upgrade"
 		}
 	}]
 }

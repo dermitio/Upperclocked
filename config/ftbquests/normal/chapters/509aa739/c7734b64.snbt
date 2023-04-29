@@ -1,0 +1,31 @@
+{
+	x: -18.5d,
+	y: -1.5d,
+	text: [
+		"I think we both know where this is going...."
+	],
+	dependencies: [
+		"d973b48a"
+	],
+	tasks: [{
+		uid: "5d615ec3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironfurnaces:gold_furnace_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "4696a051",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:fancy_frame",
+			Damage: 5s
+		}
+	}]
+}

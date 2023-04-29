@@ -1,0 +1,23 @@
+{
+	x: -16.5d,
+	y: -1.5d,
+	text: [
+		"Yep.",
+		"",
+		"Faster = better ALWAYS"
+	],
+	dependencies: [
+		"57ba9da6",
+		"c7734b64"
+	],
+	tasks: [{
+		uid: "8e86fb59",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironfurnaces:diamond_furnace_idle"
+		}]
+	}]
+}

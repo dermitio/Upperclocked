@@ -1,0 +1,33 @@
+{
+	title: "Mother of all chests...",
+	x: 1.5d,
+	y: -4.0d,
+	text: [
+		"You have earned it...."
+	],
+	dependencies: [
+		"dd2dc61d",
+		"e454ad5c"
+	],
+	tasks: [{
+		uid: "fbfce6e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironchest:iron_chest",
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "31851903",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "projecte:item.pe_mind_stone"
+		}
+	}]
+}

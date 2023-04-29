@@ -1,40 +1,42 @@
 {
-	title: "Gold chest",
-	x: -2.5d,
-	y: -4.0d,
+	title: "Crystal chest",
+	x: 0.5d,
+	y: -5.0d,
 	text: [
-		"Gold is better than iron....",
+		"it just looks cool.",
 		"",
-		"This is rare."
+		"And it is all it needs to do."
 	],
 	dependencies: [
-		"80865b26"
+		"8ab9e22a"
 	],
 	tasks: [{
-		uid: "ff18794f",
+		uid: "be865f35",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "ironchest:iron_chest",
-			Damage: 1s
+			id: "ironchest:diamond_crystal_chest_upgrade"
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "ironchest:iron_gold_chest_upgrade"
-		}]
+			id: "ironchest:iron_chest",
+			Damage: 5s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "2e2bc7e6",
+		uid: "90c5fae1",
 		type: "item",
 		item: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "ironchest:iron_gold_chest_upgrade"
+			id: "cfm:inflatable_castle"
 		}
 	}]
 }

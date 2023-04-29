@@ -1,0 +1,17 @@
+{
+	x: -13.0d,
+	y: 3.5d,
+	dependencies: [
+		"0999336d"
+	],
+	tasks: [{
+		uid: "6f8d91fb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:controller"
+		}]
+	}]
+}

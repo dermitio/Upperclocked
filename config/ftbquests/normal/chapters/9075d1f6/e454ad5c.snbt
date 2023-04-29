@@ -1,0 +1,45 @@
+{
+	title: "Osidian chest",
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		"This one has the properties of obsidian !",
+		"",
+		"Unbreakable almost...."
+	],
+	dependencies: [
+		"8ab9e22a"
+	],
+	tasks: [{
+		uid: "bff1e32b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironchest:diamond_obsidian_chest_upgrade"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironchest:iron_chest",
+			Damage: 6s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "767ec341",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "computercraft:pocket_computer",
+			tag: {
+				upgrade: "computercraft:speaker"
+			}
+		}
+	}]
+}

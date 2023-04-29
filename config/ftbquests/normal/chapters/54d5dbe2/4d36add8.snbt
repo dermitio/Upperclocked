@@ -1,0 +1,44 @@
+{
+	title: "Bushes",
+	x: -4.5d,
+	y: -1.5d,
+	text: [
+		"These thing will get you ABOVE your hunger bar.",
+		"",
+		"just place em and let them grow !"
+	],
+	tasks: [{
+		uid: "30568c4b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "natura:overworld_berrybush_raspberry"
+		}],
+		count: 16L
+	},
+	{
+		uid: "9fdae1c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "natura:overworld_berrybush_blueberry"
+		}],
+		count: 16L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "ac506da7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "natura:nether_berrybush_blightberry"
+		},
+		count: 2
+	}]
+}

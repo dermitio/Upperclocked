@@ -1,0 +1,28 @@
+{
+	title: "Your path ?",
+	x: -13.0d,
+	y: 2.5d,
+	shape: "diamond",
+	text: [
+		"You can either go with RS (refined storage) or AE2 (applied energysticks 2).",
+		"",
+		"RS would be a better choice if you are lazy.",
+		"",
+		"But I cannot say AE2 is not better.",
+		"",
+		"You choose...",
+		"",
+		"Or go both IDK."
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "0999336d",
+		type: "checkmark",
+		title: "AE2"
+	},
+	{
+		uid: "d4153988",
+		type: "checkmark",
+		title: "RS"
+	}]
+}

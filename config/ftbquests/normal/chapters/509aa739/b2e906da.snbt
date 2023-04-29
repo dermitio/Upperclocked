@@ -1,0 +1,17 @@
+{
+	x: -15.5d,
+	y: -0.5d,
+	dependencies: [
+		"26623879"
+	],
+	tasks: [{
+		uid: "a54d3ef8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironfurnaces:obsidian_furnace_idle"
+		}]
+	}]
+}

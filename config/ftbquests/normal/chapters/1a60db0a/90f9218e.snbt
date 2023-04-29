@@ -5,7 +5,9 @@
 	text: [
 		"Let us smelt some of those items.",
 		"",
-		"coal nuggets smelt 1 item at a time so if you dont have  8x amount of items just use coal nuggets."
+		"coal nuggets smelt 1 item at a time so if you dont have  8x amount of items just use coal nuggets.",
+		"",
+		"Normal furnace is a bit buggy so might wanna go ahaed and use the hopper..."
 	],
 	dependencies: [
 		"1575b7a0"
@@ -30,5 +32,15 @@
 			id: "inventorypets:nugget_coal"
 		},
 		count: 64
+	},
+	{
+		uid: "66a29a4d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:hopper"
+		}
 	}]
 }

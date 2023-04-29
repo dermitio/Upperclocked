@@ -1,0 +1,21 @@
+{
+	x: -13.0d,
+	y: 1.5d,
+	dependencies: [
+		"d4153988"
+	],
+	tasks: [{
+		uid: "36c99eed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "refinedstorage:controller",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}
