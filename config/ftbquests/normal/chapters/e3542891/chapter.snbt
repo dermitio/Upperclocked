@@ -1,14 +1,17 @@
 {
-	title: "Actually aditions",
+	title: "Thermal series",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
 		},
-		id: "actuallyadditions:item_drill",
+		id: "thermalexpansion:dynamo",
 		tag: {
-			Energy: 0
+			RSControl: 0b,
+			Facing: 1b,
+			Energy: 0,
+			Level: 0b
 		},
-		Damage: 3s
+		Damage: 1s
 	},
 	always_invisible: false,
 	group: 0,

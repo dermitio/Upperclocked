@@ -1,0 +1,44 @@
+{
+	title: "Liquid transportation",
+	x: 1.5d,
+	y: 0.5d,
+	text: [
+		"Same story as normal pipes but for liquids."
+	],
+	dependencies: [
+		"c1dc4e48"
+	],
+	tasks: [{
+		uid: "db5fa2e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcrafttransport:pipe_wood_fluid"
+		}],
+		count: 4L
+	},
+	{
+		uid: "9d4a7aff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcrafttransport:pipe_stone_fluid"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "246e5d2e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcrafttransport:pipe_quartz_fluid"
+		},
+		count: 32
+	}]
+}

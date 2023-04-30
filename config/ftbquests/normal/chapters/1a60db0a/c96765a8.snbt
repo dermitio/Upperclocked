@@ -1,0 +1,60 @@
+{
+	x: -12.5d,
+	y: 2.5d,
+	text: [
+		"Slime boots are a great tool for both mobility and safety.",
+		"",
+		"Slime boots allow you to go super fast as long as you started jumping from a 2 block tall place.",
+		"",
+		"Dont worry about fall damage since these awsome boots negate any fall damage !",
+		"",
+		"You can combine this with slimeslings to go extreamly fast and high.",
+		"",
+		"You can find the ingrediants needed in those flying slime islands."
+	],
+	tasks: [{
+		uid: "577033a8",
+		type: "item",
+		title: "Slime boots",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:slime_boots"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:slime_boots",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:slime_boots",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:slime_boots",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "76ca8272",
+		type: "choice",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 9s
+		},
+		table: 1
+	}]
+}

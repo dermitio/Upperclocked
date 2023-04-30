@@ -1,0 +1,39 @@
+{
+	title: "Harvest the sun... Slowly",
+	x: 6.0d,
+	y: -5.0d,
+	text: [
+		"Solar power is great and all but AA solar panel is behind most others.",
+		"",
+		"And to be honest you will be using oil for power anyways.",
+		"",
+		"Kind of a dead investment."
+	],
+	dependencies: [
+		"db736923",
+		"f578ba26"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a6c6de56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_furnace_solar"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "58e413a7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_furnace_solar"
+		},
+		count: 12
+	}]
+}

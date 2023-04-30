@@ -1,0 +1,32 @@
+{
+	x: 3.5d,
+	y: -1.5d,
+	text: [
+		"An EVEN better engine with a maintinance cost ;D"
+	],
+	dependencies: [
+		"c60f80b3"
+	],
+	tasks: [{
+		uid: "3e63bac7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftcore:engine",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "45a2f2d0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftcore:engine",
+			Damage: 2s
+		}
+	}]
+}

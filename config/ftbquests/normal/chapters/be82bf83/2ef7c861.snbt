@@ -1,0 +1,30 @@
+{
+	x: 3.5d,
+	y: 4.5d,
+	text: [
+		"After you find an oil spring and pumped it out you can distill it to use it for future use."
+	],
+	dependencies: [
+		"f30a3ec7"
+	],
+	tasks: [{
+		uid: "463c2c8f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftfactory:distiller"
+		}]
+	}],
+	rewards: [{
+		uid: "832b9753",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftfactory:distiller"
+		}
+	}]
+}

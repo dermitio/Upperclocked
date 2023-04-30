@@ -1,0 +1,35 @@
+{
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"Resonator is what you will use to create most stuff here.",
+		"",
+		"You can check JEI to learn what it can do."
+	],
+	dependencies: [
+		"2e341d05",
+		"027cd99a"
+	],
+	tasks: [{
+		uid: "624e0442",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:resonator"
+		}]
+	}],
+	rewards: [{
+		uid: "9ff45bd9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:decorativesolid",
+			Damage: 3s
+		},
+		count: 16
+	}]
+}

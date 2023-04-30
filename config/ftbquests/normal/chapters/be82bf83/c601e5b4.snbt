@@ -21,5 +21,15 @@
 			},
 			id: "buildcraftcore:engine"
 		}]
+	}],
+	rewards: [{
+		uid: "c526645c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftcore:engine"
+		}
 	}]
 }

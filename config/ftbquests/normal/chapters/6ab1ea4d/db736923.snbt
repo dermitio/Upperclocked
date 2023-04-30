@@ -1,0 +1,48 @@
+{
+	title: "EMPOWERED !",
+	x: 6.0d,
+	y: -3.0d,
+	text: [
+		"Please refer to the AA booklet.",
+		"",
+		"Empowering is a power hungry process so you might want to get some energy storage going before trying this."
+	],
+	dependencies: [
+		"e469d7d8",
+		"f578ba26"
+	],
+	tasks: [{
+		uid: "a7652e3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_empowerer"
+		}]
+	},
+	{
+		uid: "15837907",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_display_stand"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "2982fb8a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_battery",
+			tag: {
+				Energy: 200000
+			}
+		}
+	}]
+}

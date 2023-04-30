@@ -1,0 +1,94 @@
+{
+	title: "DUCKTS",
+	x: -0.5d,
+	y: -2.0d,
+	text: [
+		"WELCOME TO THERMAL !",
+		"",
+		"This mod allows you to do A LOT with minimal effort. [That is what I feel like it does]",
+		"",
+		"And we will be using these ducts alot so lets make a lot of them.",
+		"",
+		"You will be needing servos to make them work."
+	],
+	tasks: [{
+		uid: "929f9868",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermaldynamics:duct_0"
+		}],
+		count: 32L
+	},
+	{
+		uid: "785bae25",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermaldynamics:duct_16",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermaldynamics:duct_16"
+		}],
+		count: 32L
+	},
+	{
+		uid: "4a4da51e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermaldynamics:duct_32",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermaldynamics:duct_32"
+		}],
+		count: 32L
+	},
+	{
+		uid: "835ede80",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermaldynamics:servo"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "66f23892",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermaldynamics:servo"
+		},
+		count: 2
+	},
+	{
+		uid: "6bc6b06a",
+		type: "choice",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermaldynamics:duct_0"
+		},
+		table: 2
+	}]
+}

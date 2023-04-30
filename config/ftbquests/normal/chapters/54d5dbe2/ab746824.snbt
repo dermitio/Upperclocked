@@ -1,0 +1,28 @@
+{
+	title: "Bonsai !",
+	x: -4.5d,
+	y: -3.5d,
+	text: [
+		"Bonsai potss are passive farm that give you what you need !",
+		"",
+		"You \"could\" make plain one but it wouldnt be a great farm since you need to manually take the crops for the next one to grow.",
+		"",
+		"So hopping bonsai it is !",
+		"",
+		"Use a drawer to maximize the potential of your new farm."
+	],
+	dependencies: [
+		"ad77356c"
+	],
+	tasks: [{
+		uid: "c07a0abd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bonsaitrees:bonsaipot",
+			Damage: 1s
+		}]
+	}]
+}

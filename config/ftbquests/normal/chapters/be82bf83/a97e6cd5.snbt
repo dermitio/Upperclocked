@@ -1,0 +1,48 @@
+{
+	title: "Speed.",
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"Gold pipes speed up the transport time.",
+		"",
+		"Useful, extremly useful even !"
+	],
+	dependencies: [
+		"c1dc4e48",
+		"abce2a10",
+		"aee7f994"
+	],
+	tasks: [{
+		uid: "7b7acdb4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcrafttransport:pipe_gold_item"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e1bd74ef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcrafttransport:pipe_gold_fluid"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "f272b4ca",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcrafttransport:pipe_gold_power"
+		},
+		count: 8
+	}]
+}

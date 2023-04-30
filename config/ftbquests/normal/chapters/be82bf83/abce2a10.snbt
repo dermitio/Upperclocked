@@ -1,0 +1,24 @@
+{
+	title: "Energy transportation",
+	x: 3.5d,
+	y: 0.5d,
+	text: [
+		"Kinesis pipes can carry buildcraft energy aka MJ(minecraft joule).",
+		"",
+		"And you will be needing these pipes to carry this energy."
+	],
+	dependencies: [
+		"c1dc4e48"
+	],
+	tasks: [{
+		uid: "4765127e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcrafttransport:pipe_wood_power"
+		}],
+		count: 4L
+	}]
+}

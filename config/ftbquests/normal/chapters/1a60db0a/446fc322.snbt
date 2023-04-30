@@ -1,0 +1,22 @@
+{
+	title: "Nether",
+	x: -0.5d,
+	y: -1.5d,
+	text: [
+		"Ah here we go again.",
+		"",
+		"Bring some armor because you will need it.",
+		"",
+		"And blocks too.",
+		"",
+		"And a slime combo."
+	],
+	dependencies: [
+		"57ba9da6"
+	],
+	tasks: [{
+		uid: "24674a51",
+		type: "dimension",
+		dim: -1
+	}]
+}

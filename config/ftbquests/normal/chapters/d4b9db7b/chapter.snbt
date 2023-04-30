@@ -1,0 +1,24 @@
+{
+	title: "Extra Utilities 2",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "extrautils2:angelring",
+		Damage: 4s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 4.5d,
+		y: 3.0d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "minecraft:textures/gui/presets/isles.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

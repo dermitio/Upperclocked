@@ -1,0 +1,43 @@
+{
+	title: "Resonating !",
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"EU will provide us usefull tools and blocks.",
+		"",
+		"These crystals are the core of all of EU.",
+		"",
+		"In EU you have a evergenerating power and this power always exists.",
+		"",
+		"You cannot destroy it.",
+		"",
+		"As long as you have generators active you will have power.",
+		"",
+		"You will need some chunk loaders btw just a heads up."
+	],
+	dependencies: [
+		"08c49898"
+	],
+	tasks: [{
+		uid: "2ecb85d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:ingredients"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "d19e1531",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:ingredients"
+		},
+		count: 4
+	}]
+}

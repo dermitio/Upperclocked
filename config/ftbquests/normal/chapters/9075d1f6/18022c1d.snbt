@@ -1,0 +1,62 @@
+{
+	title: "Drawers",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		}
+	},
+	x: -12.5d,
+	y: -2.0d,
+	text: [
+		"Drawers are a great tool for holding a lot of the same item.",
+		"",
+		"Use them as you wish"
+	],
+	tasks: [{
+		uid: "1b4f041a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "any"
+			},
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "any"
+			}
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "any"
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "154424d9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "storagedrawers:drawer_key"
+		}
+	}]
+}

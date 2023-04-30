@@ -1,0 +1,48 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	text: [
+		"Fermanting the juice is important.",
+		"",
+		"Refined canola is the way of power generation.",
+		"",
+		"Just put the plain oil inside and wait a bit."
+	],
+	dependencies: [
+		"c3626bd3",
+		"f578ba26",
+		"bdbf21b5"
+	],
+	tasks: [{
+		uid: "63adb2c6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_fermenting_barrel"
+		}]
+	}],
+	rewards: [{
+		uid: "be6dae10",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:screen"
+		}
+	},
+	{
+		uid: "06b62a0a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_misc",
+			Damage: 13s
+		},
+		count: 32
+	}]
+}

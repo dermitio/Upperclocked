@@ -1,0 +1,39 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	text: [
+		"Lets charge up some tools !",
+		"",
+		"Energizer lets you charge your tools.",
+		"",
+		"Enervator allows you to take that charge away from your tools.",
+		"",
+		"And batteries."
+	],
+	min_required_dependencies: 2,
+	dependencies: [
+		"e469d7d8",
+		"f578ba26",
+		"01ca268d"
+	],
+	tasks: [{
+		uid: "cb31d436",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_energizer"
+		}]
+	}],
+	rewards: [{
+		uid: "213e733f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_enervator"
+		}
+	}]
+}

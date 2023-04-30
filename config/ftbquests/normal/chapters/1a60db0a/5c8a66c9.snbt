@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"Standart sftuff for now."
+	],
+	dependencies: [
+		"446fc322"
+	],
+	tasks: [{
+		uid: "e5d9e323",
+		type: "advancement",
+		title: "Find a fortress",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:nether_brick"
+		},
+		advancement: "minecraft:nether/find_fortress",
+		criterion: "1"
+	}]
+}

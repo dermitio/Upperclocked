@@ -1,0 +1,40 @@
+{
+	title: "Your best friend",
+	x: 8.0d,
+	y: 1.0d,
+	text: [
+		"AA drill is great.",
+		"",
+		"It requires almost nothing !",
+		"",
+		"Just pump in some upgrades and boom good to go."
+	],
+	dependencies: [
+		"443c44d2"
+	],
+	tasks: [{
+		uid: "eda92d8d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_drill",
+			tag: {
+				Energy: 0
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "03a349ac",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_drill_upgrade_speed"
+		}
+	}]
+}

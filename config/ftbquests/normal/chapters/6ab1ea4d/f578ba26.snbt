@@ -1,0 +1,34 @@
+{
+	x: 4.0d,
+	y: -3.0d,
+	text: [
+		"We will be reconstructing some atoms.",
+		"",
+		"No need for chemistry knowledge."
+	],
+	dependencies: [
+		"01ca268d"
+	],
+	tasks: [{
+		uid: "17c782ab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}],
+	rewards: [{
+		uid: "e7ca368e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:cosmetic",
+			tag: {},
+			Damage: 25s
+		}
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: 0.5d,
+	y: 2.5d,
+	text: [
+		"Ever heard of hydro power ?",
+		"",
+		"Your best bet on EU power although not without flaws.",
+		"",
+		"Water mills can put out a good amount of power but if there is too much power generation you will start losing potential power.",
+		"",
+		"Image on the right will show you how to use this mill most effectively."
+	],
+	dependencies: [
+		"2e341d05",
+		"d7c3b05d"
+	],
+	tasks: [{
+		uid: "83f92a48",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "1f7fc29f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 3s
+		}
+	}]
+}

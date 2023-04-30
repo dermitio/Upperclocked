@@ -1,0 +1,34 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	text: [
+		"Lets get some power abusement.",
+		"",
+		"Oil generators make energy from... well oil.",
+		"",
+		"You can use the canola oil you made !"
+	],
+	dependencies: [
+		"604bc60b"
+	],
+	tasks: [{
+		uid: "4af8b040",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_oil_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "b32984c1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_oil_generator"
+		}
+	}]
+}

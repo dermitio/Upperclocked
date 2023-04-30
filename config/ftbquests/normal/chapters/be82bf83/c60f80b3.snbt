@@ -1,0 +1,32 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"A better engine that requires some stuff."
+	],
+	dependencies: [
+		"c601e5b4"
+	],
+	tasks: [{
+		uid: "0cb80421",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftcore:engine",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "c14c2eae",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftcore:engine",
+			Damage: 1s
+		}
+	}]
+}

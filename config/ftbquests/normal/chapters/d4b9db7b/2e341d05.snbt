@@ -1,0 +1,35 @@
+{
+	title: "Manual power",
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"Manual mill will make you your first  power for now.",
+		"",
+		"Right click on it once and keep looking at it to generate power."
+	],
+	dependencies: [
+		"027cd99a"
+	],
+	tasks: [{
+		uid: "614ab658",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "ddc7b6eb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:redstone"
+		},
+		count: 16
+	}]
+}

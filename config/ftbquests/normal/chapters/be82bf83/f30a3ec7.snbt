@@ -1,0 +1,26 @@
+{
+	title: "Pumpkin",
+	x: 1.5d,
+	y: 4.5d,
+	text: [
+		"Bc pumps are easy and great.",
+		"",
+		"No need for anything.",
+		"",
+		"Just an engine and a liquid output."
+	],
+	dependencies: [
+		"c60f80b3",
+		"aee7f994"
+	],
+	tasks: [{
+		uid: "42254a03",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftfactory:pump"
+		}]
+	}]
+}

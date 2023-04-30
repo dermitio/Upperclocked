@@ -1,0 +1,37 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	text: [
+		"Coal is a great source of power.",
+		"",
+		"That is kinda it.",
+		"",
+		"Put this next to your machines to give them power until you get power cables of some sort.",
+		"",
+		"You can use wood to make power."
+	],
+	dependencies: [
+		"29673475",
+		"ad77356c"
+	],
+	tasks: [{
+		uid: "26795614",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_coal_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "53a2b319",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_coal_generator"
+		}
+	}]
+}

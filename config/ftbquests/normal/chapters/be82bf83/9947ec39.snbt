@@ -1,0 +1,33 @@
+{
+	x: -0.5d,
+	y: 4.5d,
+	text: [
+		"Quarry is a great tool in the wrong hands.",
+		"",
+		"Place the quarry provide power place a chest or a pipe above for output and watch as this one block destroys a whole chunk."
+	],
+	dependencies: [
+		"a97e6cd5"
+	],
+	tasks: [{
+		uid: "c1334917",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftbuilders:quarry"
+		}]
+	}],
+	rewards: [{
+		uid: "e50cfd8f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderstorage:ender_storage"
+		},
+		count: 2
+	}]
+}

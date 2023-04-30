@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"Lets make some oil.",
+		"",
+		"You can use the screen you got from the previous quest to give me the oil.",
+		"",
+		"Make sure you give me the exact amount since I will gladly take more."
+	],
+	dependencies: [
+		"604bc60b"
+	],
+	tasks: [{
+		uid: "3e8782a4",
+		type: "fluid",
+		fluid: "refinedcanolaoil",
+		amount: 8000
+	}],
+	rewards: [{
+		uid: "d5905d06",
+		type: "choice",
+		table: 3
+	}]
+}

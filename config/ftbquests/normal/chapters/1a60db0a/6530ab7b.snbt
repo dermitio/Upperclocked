@@ -1,0 +1,52 @@
+{
+	x: -0.5d,
+	y: -3.5d,
+	dependencies: [
+		"446fc322"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e45e61e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:netherrack"
+		}],
+		count: 64L
+	},
+	{
+		uid: "b521fcd5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:quartz"
+		}],
+		count: 64L
+	},
+	{
+		uid: "60d16857",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:magma"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7228f002",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "cfm:fire_alarm_off"
+		},
+		count: 4
+	}]
+}

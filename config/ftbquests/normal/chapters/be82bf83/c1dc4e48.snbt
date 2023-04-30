@@ -1,0 +1,50 @@
+{
+	title: "Item transportation",
+	x: -0.5d,
+	y: 0.5d,
+	text: [
+		"Pipes require power to work.",
+		"",
+		"BUT !",
+		"",
+		"They have more uses than itemducts.",
+		"",
+		"So still a worth invesment."
+	],
+	dependencies: [
+		"c601e5b4"
+	],
+	tasks: [{
+		uid: "995751a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcrafttransport:pipe_wood_item"
+		}],
+		count: 4L
+	},
+	{
+		uid: "688784d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcrafttransport:pipe_stone_item"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a8d22c61",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcrafttransport:pipe_quartz_item"
+		},
+		count: 32
+	}]
+}

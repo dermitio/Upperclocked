@@ -1,0 +1,36 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		"\"We have oil at home\"",
+		"",
+		"Canola is going to be your #2 power source.",
+		"",
+		"And oh boy will we be abusing it."
+	],
+	dependencies: [
+		"4872a4ef",
+		"f578ba26",
+		"01ca268d"
+	],
+	tasks: [{
+		uid: "a709c33c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_canola_press"
+		}]
+	}],
+	rewards: [{
+		uid: "3a3286f2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_canola_press"
+		}
+	}]
+}

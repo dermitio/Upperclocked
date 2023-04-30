@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: -3.5d,
+	text: [
+		"Automation at its finest."
+	],
+	dependencies: [
+		"e81f565d"
+	],
+	tasks: [{
+		uid: "0f278f8e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftfactory:autoworkbench_item"
+		}]
+	}]
+}
