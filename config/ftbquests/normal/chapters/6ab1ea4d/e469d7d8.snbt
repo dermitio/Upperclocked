@@ -9,7 +9,8 @@
 		"You can use the canola oil you made !"
 	],
 	dependencies: [
-		"604bc60b"
+		"604bc60b",
+		"f3b87d53"
 	],
 	tasks: [{
 		uid: "4af8b040",

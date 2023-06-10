@@ -1,6 +1,10 @@
 {
+	title: "Nether metarials",
 	x: -0.5d,
 	y: -3.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"446fc322"
 	],

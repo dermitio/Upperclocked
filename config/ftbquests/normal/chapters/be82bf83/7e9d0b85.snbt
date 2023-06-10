@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	text: [
+		"Start of the most things.",
+		"",
+		"This is just a casual wrench."
+	],
+	tasks: [{
+		uid: "cac1542a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftcore:wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

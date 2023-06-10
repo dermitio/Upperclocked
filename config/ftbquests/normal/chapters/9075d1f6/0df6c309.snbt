@@ -1,0 +1,47 @@
+{
+	title: "Ender storage !",
+	x: 4.0d,
+	y: -4.0d,
+	text: [
+		"Ender chests/tanks allow you to carry the insides between dimentions and places without pipes.",
+		"",
+		"You can use color combinations to label which chest/tank goes to wich one."
+	],
+	dependencies: [
+		"446fc322"
+	],
+	tasks: [{
+		uid: "0670632d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderstorage:ender_storage"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a4651dab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderstorage:ender_storage",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bcaeb687",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:enderlilly"
+		},
+		count: 6
+	}]
+}

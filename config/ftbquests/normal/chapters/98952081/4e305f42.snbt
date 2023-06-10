@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "69cfd46b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advgenerators:steam_turbine_controller"
+		}]
+	}]
+}

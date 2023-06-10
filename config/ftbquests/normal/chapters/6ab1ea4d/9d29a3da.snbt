@@ -1,0 +1,26 @@
+{
+	title: "Basiclly farming",
+	x: 0.0d,
+	y: -5.0d,
+	text: [
+		"Farmer will..... farm.",
+		"",
+		"Yeah suprising I know.",
+		"",
+		"I am not even gonna explain it it here because the booklet does a LOT better job at explaining the farmer."
+	],
+	dependencies: [
+		"f578ba26",
+		"01ca268d"
+	],
+	tasks: [{
+		uid: "447a2a7e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_farmer"
+		}]
+	}]
+}

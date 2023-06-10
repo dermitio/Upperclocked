@@ -1,0 +1,13 @@
+{
+	title: "Equal is equal",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "projecte:item.pe_philosophers_stone",
+		tag: {}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,33 @@
+{
+	title: "Simple storage networks",
+	x: -12.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5d3fb2cb"
+	],
+	tasks: [{
+		uid: "0c6b29c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "storagenetwork:kabel"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "364716b3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "storagenetwork:kabel"
+		},
+		count: 32
+	}]
+}

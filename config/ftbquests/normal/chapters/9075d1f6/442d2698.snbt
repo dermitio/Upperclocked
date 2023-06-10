@@ -1,0 +1,30 @@
+{
+	x: -11.5d,
+	y: -4.0d,
+	text: [
+		"Even more storage."
+	],
+	dependencies: [
+		"f9e2fe8d"
+	],
+	tasks: [{
+		uid: "c5c89cba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_giant_chest_medium"
+		}]
+	}],
+	rewards: [{
+		uid: "dcb4e648",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_small_to_medium_crate_upgrade"
+		}
+	}]
+}

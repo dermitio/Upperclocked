@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: -3.5d,
+	text: [
+		"This glass will negate all season affects.",
+		"",
+		"You neeed to put these greenhouse glasses 4 blocks above the crop."
+	],
+	tasks: [{
+		uid: "7457181a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "sereneseasons:greenhouse_glass"
+		}]
+	}],
+	rewards: [{
+		uid: "6ea16895",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "sereneseasons:greenhouse_glass"
+		}
+	}]
+}

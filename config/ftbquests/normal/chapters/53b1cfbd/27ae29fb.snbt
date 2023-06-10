@@ -1,0 +1,54 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"Inferium essence and prosperity shards are the heart of this mod.",
+		"",
+		"You want to collect all the inferium essence you can."
+	],
+	tasks: [{
+		uid: "6d53253c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:crafting"
+		}],
+		count: 64L
+	},
+	{
+		uid: "7d1fc66c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 5s
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "46ba4d03",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:crafting"
+		},
+		count: 64
+	},
+	{
+		uid: "db152c6b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:tier3_inferium_seeds"
+		},
+		count: 2
+	}]
+}

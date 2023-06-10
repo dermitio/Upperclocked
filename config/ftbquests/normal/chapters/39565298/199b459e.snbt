@@ -1,0 +1,30 @@
+{
+	title: "Flux",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Core item of the mod."
+	],
+	tasks: [{
+		uid: "b5790136",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fluxnetworks:flux"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "922eea45",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fluxnetworks:flux"
+		},
+		count: 64
+	}]
+}

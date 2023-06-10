@@ -1,0 +1,27 @@
+{
+	title: "A solid tramboline",
+	x: 4.0d,
+	y: -1.5d,
+	text: [
+		"Squeezer will squeeze stuff when you jump on it.",
+		"",
+		"You can check JEI to see all the thing it can squeeze.",
+		"",
+		"The results may be liquid as well so make sure you have some fluiducts for that.",
+		"",
+		"Can be reset using redstone."
+	],
+	dependencies: [
+		"38f70941"
+	],
+	tasks: [{
+		uid: "430ac58c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "integrateddynamics:squeezer"
+		}]
+	}]
+}

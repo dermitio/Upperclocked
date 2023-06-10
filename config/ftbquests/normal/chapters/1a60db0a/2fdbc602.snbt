@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	text: [
+		"Glider gives you great mobility with the ability to glide trough the sky !"
+	],
+	tasks: [{
+		uid: "6b73892a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openglider:hang_glider_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 1.0d,
+	y: -0.5d,
+	text: [
+		"\"Transmute that into that\", Well said.",
+		"",
+		"Did you see the \"EMC\" value when looking at the items in your inventory ? It is basiclly the \"money\" of this mod and the transmutation table is the market BUT! you can only buy what you sold before."
+	],
+	dependencies: [
+		"d22b9bae"
+	],
+	tasks: [{
+		uid: "7c1b9957",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "projecte:transmutation_table"
+		}]
+	}],
+	rewards: [{
+		uid: "586c05e5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:diamond"
+		}
+	}]
+}

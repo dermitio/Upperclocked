@@ -21,5 +21,17 @@
 			Damage: 5s
 		}],
 		count: 24L
+	}],
+	rewards: [{
+		uid: "a281c959",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_misc",
+			Damage: 5s
+		},
+		count: 16
 	}]
 }

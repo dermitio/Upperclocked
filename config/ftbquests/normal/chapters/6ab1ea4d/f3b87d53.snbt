@@ -15,7 +15,7 @@
 		uid: "3e8782a4",
 		type: "fluid",
 		fluid: "refinedcanolaoil",
-		amount: 8000
+		amount: 2000
 	}],
 	rewards: [{
 		uid: "d5905d06",

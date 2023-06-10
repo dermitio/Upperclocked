@@ -1,5 +1,12 @@
 {
 	title: "Buildcraft",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "buildcraftcore:engine",
+		Damage: 2s
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

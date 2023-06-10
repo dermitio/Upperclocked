@@ -1,0 +1,35 @@
+{
+	x: -3.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "9f4c8133",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "immersiveengineering:connector"
+		}]
+	},
+	{
+		uid: "43a0e351",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "immersiveengineering:wirecoil"
+		}]
+	},
+	{
+		uid: "bf38a539",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "immersiveengineering:connector",
+			Damage: 1s
+		}]
+	}]
+}

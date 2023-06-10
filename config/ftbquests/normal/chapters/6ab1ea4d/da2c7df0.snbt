@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: -5.0d,
+	text: [
+		"As its name says.",
+		"",
+		"You can double up on smelting with this bad boy."
+	],
+	dependencies: [
+		"01ca268d"
+	],
+	tasks: [{
+		uid: "d0d1982b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_furnace_double"
+		}]
+	}]
+}

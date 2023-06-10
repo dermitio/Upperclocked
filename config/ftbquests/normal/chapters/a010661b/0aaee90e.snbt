@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "c7d3e4d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "opencomputers:component",
+			Damage: 16s
+		}]
+	}]
+}

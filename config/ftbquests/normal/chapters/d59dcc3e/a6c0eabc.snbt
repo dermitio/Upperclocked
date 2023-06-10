@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "dceaefa4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "projecte:collector_mk2"
+		}]
+	}]
+}

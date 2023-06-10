@@ -1,0 +1,33 @@
+{
+	title: "Mining dimention",
+	x: -9.5d,
+	y: -0.5d,
+	text: [
+		"A flat world full of recources awaits !",
+		"",
+		"Build a 3x3 portal on the ground like an end portal and ignite it with the multitool. You can enter the portal by pressing shift in it."
+	],
+	tasks: [{
+		uid: "21a0e201",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "aroma1997sdimension:portalframe"
+		}],
+		count: 12L
+	},
+	{
+		uid: "cee06347",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "aroma1997sdimension:miningmultitool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

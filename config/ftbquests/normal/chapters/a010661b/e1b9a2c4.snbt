@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"3d2b741f"
+	],
+	tasks: [{
+		uid: "d293cab0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "opencomputers:component"
+		}],
+		ignore_nbt: 1b
+	}]
+}

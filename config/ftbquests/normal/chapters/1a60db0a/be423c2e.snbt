@@ -1,0 +1,23 @@
+{
+	title: "Explosive Mining",
+	x: -15.0d,
+	y: -5.5d,
+	text: [
+		"Safe to explode.",
+		"",
+		"EFLN is just a throwable TNT.",
+		"",
+		"Also can be used for explosive jumping."
+	],
+	tasks: [{
+		uid: "b327b6bc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:throwball",
+			Damage: 1s
+		}]
+	}]
+}

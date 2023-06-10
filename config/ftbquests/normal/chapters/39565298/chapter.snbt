@@ -1,0 +1,12 @@
+{
+	title: "Flux systems",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "fluxnetworks:flux"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

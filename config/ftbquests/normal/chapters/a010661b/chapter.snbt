@@ -1,0 +1,12 @@
+{
+	title: "Open computers",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "opencomputers:casecreative"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

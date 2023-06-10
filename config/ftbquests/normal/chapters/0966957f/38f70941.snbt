@@ -1,0 +1,24 @@
+{
+	title: "When nature meets tech...",
+	x: 2.0d,
+	y: -1.5d,
+	description: "... some thing beatuful happens.",
+	text: [
+		"Lest use nature to do out tech stuff.",
+		"",
+		"Get those funni looking blue trees and collect their chunks.",
+		"",
+		"Their berries can be used to make torches."
+	],
+	tasks: [{
+		uid: "9d240ed2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "integrateddynamics:crystalized_menril_chunk"
+		}],
+		count: 16L
+	}]
+}

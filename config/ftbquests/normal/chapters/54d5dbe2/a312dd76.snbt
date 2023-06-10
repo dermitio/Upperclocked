@@ -1,0 +1,20 @@
+{
+	title: "The savior bean...",
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"Soybeans are a great source of food since you can put them in a presser and get silken tofu.",
+		"",
+		"You can press the silken tofu again to get soy milk and firm tofu."
+	],
+	tasks: [{
+		uid: "a26061e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:soybeanitem"
+		}]
+	}]
+}

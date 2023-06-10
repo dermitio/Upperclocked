@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: -4.5d,
+	dependencies: [
+		"808126a9"
+	],
+	tasks: [{
+		uid: "c58337f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "immersiveengineering:wooden_device1",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "87ac0bc1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "immersiveengineering:wooden_device1",
+			Damage: 1s
+		}
+	}]
+}

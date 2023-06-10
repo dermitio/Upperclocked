@@ -1,0 +1,35 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"Lest start off with something simple....",
+		"",
+		"Generic crafting ingrediant for this mod."
+	],
+	dependencies: [
+		"421403a9"
+	],
+	tasks: [{
+		uid: "2a4cdb18",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "opencomputers:material",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "16ce0efd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "opencomputers:material",
+			Damage: 4s
+		},
+		count: 2
+	}]
+}

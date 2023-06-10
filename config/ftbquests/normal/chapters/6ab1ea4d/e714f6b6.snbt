@@ -7,7 +7,15 @@
 		"",
 		"It requires almost nothing !",
 		"",
-		"Just pump in some upgrades and boom good to go."
+		"Just pump in some upgrades and boom good to go.",
+		"",
+		"You can find drill cores in dungeons.",
+		"",
+		"Shift + rclick to open the drills inventory, you can put drill upgrades here.",
+		"",
+		"As always refer to the booklet if you have anything to ask.",
+		"",
+		"The drill can mine cobalt."
 	],
 	dependencies: [
 		"443c44d2"

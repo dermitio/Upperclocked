@@ -1,0 +1,12 @@
+{
+	title: "\"Enviromental\" tech",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "environmentaltech:void_ore_miner_cont_6"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -20,7 +20,7 @@
 			},
 			id: "thermaldynamics:duct_0"
 		}],
-		count: 32L
+		count: 30L
 	},
 	{
 		uid: "785bae25",
@@ -38,7 +38,7 @@
 			},
 			id: "thermaldynamics:duct_16"
 		}],
-		count: 32L
+		count: 30L
 	},
 	{
 		uid: "4a4da51e",
@@ -56,7 +56,7 @@
 			},
 			id: "thermaldynamics:duct_32"
 		}],
-		count: 32L
+		count: 30L
 	},
 	{
 		uid: "835ede80",
@@ -90,5 +90,20 @@
 			id: "thermaldynamics:duct_0"
 		},
 		table: 2
+	},
+	{
+		uid: "865e4ee0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermalfoundation:wrench",
+			tag: {
+				display: {
+					Name: "HAMMAH"
+				}
+			}
+		}
 	}]
 }

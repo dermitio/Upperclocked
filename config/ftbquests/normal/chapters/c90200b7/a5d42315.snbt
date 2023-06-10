@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: -2.5d,
+	text: [
+		"Lets get immersive."
+	],
+	tasks: [{
+		uid: "66a562d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}]
+}

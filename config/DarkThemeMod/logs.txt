@@ -1,4 +1,3 @@
-Processing texture: minecraft:textures/gui/options_background.png
 Processing texture: minecraft:textures/gui/title/background/panorama_0.png
 Processing texture: minecraft:textures/gui/title/background/panorama_1.png
 Processing texture: minecraft:textures/gui/title/background/panorama_2.png
@@ -7,11 +6,11 @@ Processing texture: minecraft:textures/gui/title/background/panorama_4.png
 Processing texture: minecraft:textures/gui/title/background/panorama_5.png
 Processing texture: minecraft:textures/gui/title/minecraft.png
 Processing texture: minecraft:textures/gui/title/edition.png
+Processing texture: minecraft:textures/gui/widgets.png
 Detected new text stack trace class: org.zeith.darktheme.internal.GUIAwareFontRenderer
 Detected new text stack trace class: net.minecraft.client.gui.Gui
-Processing texture: minecraft:textures/gui/widgets.png
-Detected new text stack trace class: de.keksuccino.konkrete.gui.content.AdvancedButton
-Detected new text stack trace class: de.keksuccino.fancymenu.menu.fancy.helper.ui.compat.AbstractGui
+Processing texture: forge:textures/gui/version_check_icons.png
+Processing texture: minecraft:textures/gui/options_background.png
 Detected new text stack trace class: net.minecraft.client.gui.GuiListWorldSelectionEntry
 Detected new text stack trace class: net.minecraft.client.gui.GuiListExtended
 Detected new text stack trace class: net.minecraft.client.gui.GuiSlot
@@ -34,9 +33,12 @@ Detected new text stack trace class: net.minecraft.launchwrapper.Launch
 Processing texture: minecraft:textures/gui/icons.png
 Processing texture: mantle:textures/gui/hearts.png
 Processing texture: mantle:textures/gui/absorb.png
+Detected new text stack trace class: net.minecraftforge.client.GuiIngameForge
+Processing texture: xat:textures/gui/mana_bar.png
+Detected new text stack trace class: xzeroair.trinkets.client.gui.hud.mana.ManaGui
 Detected new text stack trace class: net.minecraft.client.renderer.RenderItem
 Detected new text stack trace class: net.minecraft.client.gui.GuiIngame
-Detected new text stack trace class: net.minecraft.client.gui.GuiNewChat
+Processing texture: minecraft:textures/gui/container/inventory.png
 Detected new text stack trace class: mcp.mobius.waila.overlay.DisplayUtil
 Detected new text stack trace class: mcp.mobius.waila.overlay.tooltiprenderers.TTRenderString
 Detected new text stack trace class: mcp.mobius.waila.overlay.Tooltip$Renderable
@@ -50,125 +52,303 @@ Detected new text stack trace class: net.minecraft.client.renderer.tileentity.Ti
 Detected new text stack trace class: net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher
 Detected new text stack trace class: net.minecraft.client.renderer.RenderGlobal
 Detected new text stack trace class: net.minecraft.client.renderer.EntityRenderer
+Detected new text stack trace class: net.minecraft.client.gui.GuiSubtitleOverlay
 Detected new text stack trace class: mezz.jei.gui.PageNavigation
 Detected new text stack trace class: mezz.jei.gui.overlay.IngredientGridWithNavigation
 Detected new text stack trace class: mezz.jei.gui.overlay.IngredientListOverlay
 Detected new text stack trace class: mezz.jei.gui.GuiEventHandler
 Detected new text stack trace class: net.minecraft.client.gui.GuiScreen
-Processing texture: minecraft:textures/gui/container/inventory.png
+Detected new text stack trace class: mezz.jei.gui.overlay.bookmarks.BookmarkOverlay
+Detected new text stack trace class: mezz.jei.gui.overlay.bookmarks.LeftAreaDispatcher
 Processing texture: ftblib:textures/gui/teams.png
+Detected new text stack trace class: com.feed_the_beast.ftblib.client.FTBLibClientEventHandler$GuiButtonSidebarGroup
 Processing texture: baubles:textures/gui/expanded_inventory.png
 Processing texture: quark:textures/misc/general_icons.png
 Processing texture: cosmeticarmorreworked:textures/gui/cosarmorinventory.png
+Processing texture: xat:textures/gui/gui_inventory.png
+Processing texture: xat:textures/gui/mana_button.png
+Processing texture: minecraft:textures/gui/container/villager.png
 Detected new text stack trace class: net.minecraft.client.gui.inventory.GuiContainer
 Detected new text stack trace class: net.minecraft.client.gui.inventory.GuiInventory
 Detected new font color #404040 in class net.minecraft.client.gui.inventory.GuiInventory. Replaced to #ffffff
+Detected new text stack trace class: net.minecraft.client.renderer.InventoryEffectRenderer
+Detected new text stack trace class: net.minecraft.client.gui.GuiTextField
+Processing texture: minecraft:textures/gui/container/generic_54.png
+Detected new text stack trace class: codechicken.enderstorage.client.gui.GuiEnderItemStorage
 Detected new text stack trace class: net.minecraftforge.fml.client.config.GuiUtils
-Detected new text stack trace class: com.feed_the_beast.ftblib.client.FTBLibClientEventHandler$GuiButtonSidebarGroup
-Processing texture: ftblib:textures/gui/background_squares.png
-Processing texture: ftbquests:textures/gui/dependency.png
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.Theme
-Detected new text stack trace class: com.feed_the_beast.ftbquests.gui.tree.PanelQuests
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.Panel
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.GuiBase
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.GuiWrapper
-Detected new font color #ffffff in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #ffffff
-Processing texture: ftbquests:textures/gui/pin.png
-Processing texture: ftbquests:textures/gui/settings.png
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.ContextMenu$CButton
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.ContextMenu
-Detected new font color #ffffa0 in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #ffffa0
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.SimpleTextButton
-Detected new text stack trace class: com.feed_the_beast.ftbquests.gui.tree.ButtonExpandedChapter
-Detected new text stack trace class: com.feed_the_beast.ftbquests.gui.tree.PanelChapterHover
-Processing texture: minecraft:textures/gui/recipe_book.png
-Processing texture: minecraft:textures/gui/container/beacon.png
-Processing texture: minecraft:textures/gui/container/enchanting_table.png
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.TextBox
-Detected new text stack trace class: vazkii.quark.client.feature.VisualStatDisplay
-Detected new text stack trace class: com.feed_the_beast.ftbquests.gui.tree.PanelViewQuest
-Detected new font color #aaaaaa in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #aaaaaa
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.TextField
-Detected new font color #5555ff in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #5555ff
-Detected new font color #ffaa00 in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #ffaa00
-Processing texture: ftbquests:textures/gui/close.png
-Processing texture: ftbquests:textures/gui/arrow_left.png
-Processing texture: ftbquests:textures/gui/arrow_right.png
-Processing texture: ftbquests:textures/gui/info.png
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.misc.GuiEditConfig
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.misc.GuiEditConfig$ButtonConfigEntry
-Detected new font color #ffaa49 in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #ffaa49
-Detected new font color #999999 in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #999999
-Detected new font color #aa5ae8 in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #aa5ae8
-Detected new font color #94ff in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #94ff
-Detected new font color #d52834 in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #d52834
-Detected new font color #3cd0ff in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #3cd0ff
-Detected new font color #ff6470 in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #ff6470
-Detected new font color #e696ff in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #e696ff
-Detected new font color #ffe685 in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #ffe685
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.misc.GuiEditConfigList
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.misc.GuiEditConfigList$ButtonConfigValue
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.misc.GuiEditConfigList$ButtonAddValue
-Detected new font color #d5d5d5 in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #d5d5d5
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.misc.GuiButtonListBase
+Detected new text stack trace class: vazkii.neat.HealthBarRenderer
+Detected new text stack trace class: net.minecraftforge.client.ForgeHooksClient
 Detected new text stack trace class: mezz.jei.gui.TooltipRenderer
 Detected new text stack trace class: mezz.jei.render.IngredientRenderer
 Detected new text stack trace class: mezz.jei.gui.overlay.IngredientGrid
-Detected new text stack trace class: net.minecraftforge.client.ForgeHooksClient
-Detected new text stack trace class: com.feed_the_beast.ftbquests.gui.tree.ButtonTask
-Detected new text stack trace class: com.feed_the_beast.ftbquests.gui.tree.ButtonReward
-Detected new text stack trace class: vazkii.neat.HealthBarRenderer
-Detected new text stack trace class: com.feed_the_beast.ftbquests.gui.tree.GuiValidItems
-Detected new text stack trace class: mezz.jei.gui.recipes.RecipesGui
-Processing texture: jei:textures/gui/gui_vanilla.png
-Detected new text stack trace class: mezz.jei.gui.ingredients.GuiIngredient
-Detected new text stack trace class: mezz.jei.plugins.vanilla.ingredients.item.ItemStackRenderer
-Detected new text stack trace class: net.minecraft.client.gui.GuiTextField
+Processing texture: appliedenergistics2:textures/guis/crafting.png
+Processing texture: appliedenergistics2:textures/guis/states.png
+Processing texture: minecraft:textures/gui/container/creative_inventory/tabs.png
+Detected new text stack trace class: appeng.client.gui.implementations.GuiMEMonitorable
+Detected new text stack trace class: appeng.client.gui.implementations.GuiCraftingTerm
+Detected new text stack trace class: appeng.client.render.StackSizeRenderer
+Detected new text stack trace class: appeng.client.gui.AEBaseGui
+Processing texture: ironchest:textures/gui/gold_container.png
+Detected new text stack trace class: crazypants.enderio.base.render.itemoverlay.MobNameOverlayRenderHelper
+Detected new text stack trace class: crazypants.enderio.base.item.spawner.ItemBrokenSpawner
+Detected new text stack trace class: com.enderio.core.common.transform.EnderCoreMethods
+Processing texture: everlastingabilities:textures/gui/ability_totem.png
+Detected new text stack trace class: org.cyclops.cyclopscore.helper.RenderHelpers
+Detected new text stack trace class: org.cyclops.everlastingabilities.client.gui.GuiAbilityContainer
+Processing texture: cyclopscore:textures/gui/buttons.png
+Detected new font color #ffffff in class org.cyclops.everlastingabilities.client.gui.GuiAbilityContainer. Replaced to #ffffff
+Detected new font color #28d728 in class org.cyclops.everlastingabilities.client.gui.GuiAbilityContainer. Replaced to #28d728
+Detected new text stack trace class: org.cyclops.cyclopscore.helper.GuiHelpers
+Detected new text stack trace class: org.cyclops.cyclopscore.client.gui.container.GuiContainerExtended
+Processing texture: minecraft:textures/gui/container/crafting_table.png
+Detected new text stack trace class: slimeknights.mantle.client.gui.GuiMultiModule
+Detected new text stack trace class: de.ellpeck.actuallyadditions.mod.event.ClientEvents
+Processing texture: teslacorelib:textures/gui/basic-machine.png
+Detected new text stack trace class: net.ndrei.teslacorelib.gui.MachineNameGuiPiece
+Detected new text stack trace class: net.ndrei.teslacorelib.gui.BasicTeslaGuiContainer$drawGuiContainerBackgroundLayer$1
+Detected new text stack trace class: net.ndrei.teslacorelib.gui.BasicTeslaGuiContainer
+Detected new font color #40403f in class net.ndrei.teslacorelib.gui.BasicTeslaGuiContainer. Replaced to #bbbbbb
+Detected new text stack trace class: com.buuz135.industrial.tile.CustomElectricMachine$1
+Detected new text stack trace class: net.ndrei.teslacorelib.gui.ToggleButtonPiece
+Detected new text stack trace class: net.ndrei.teslacorelib.gui.BasicTeslaGuiContainer$drawGuiContainerForegroundLayer$1
+Detected new text stack trace class: vazkii.quark.client.feature.VisualStatDisplay
+Processing texture: industrialforegoing:textures/gui/jei.png
+Processing texture: mekanism:gui/guiblank.png
+Processing texture: mekanism:gui/elements/guicontainereditmode.png
+Processing texture: mekanism:gui/elements/guisecuritytab.png
+Processing texture: mekanism:gui/elements/guigaugewide.png
+Processing texture: mekanism:gui/elements/guislot.png
+Detected new text stack trace class: mekanism.client.gui.GuiFluidTank
+Processing texture: industrialforegoing:textures/gui/machines.png
+Processing texture: enderio:textures/gui/40/capacitor_bank.png
+Processing texture: endercore:textures/gui/widgets.png
+Processing texture: enderio:textures/gui/40/widgetsv2.png
+Processing texture: enderio:textures/gui/overlay.png
+Detected new text stack trace class: net.ndrei.teslacorelib.render.HudInfoRenderer
+Detected new text stack trace class: net.ndrei.teslacorelib.render.SidedTileEntityRenderer
 Detected new text stack trace class: vazkii.arl.util.RenderHelper
 Detected new text stack trace class: vazkii.quark.management.client.gui.GuiButtonChest
+Detected new text stack trace class: mezz.jei.gui.recipes.RecipesGui
+Processing texture: jei:textures/gui/gui_vanilla.png
+Detected new text stack trace class: mezz.jei.gui.recipes.RecipeTransferButton
+Detected new text stack trace class: mezz.jei.gui.ingredients.GuiIngredient
+Detected new text stack trace class: mezz.jei.plugins.vanilla.ingredients.item.ItemStackRenderer
 Processing texture: jeresources:textures/gui/tabs.png
 Detected new text stack trace class: mezz.jei.gui.recipes.RecipeGuiTabs
-Processing texture: immersiveengineering:textures/gui/squeezer.png
-Processing texture: jeresources:textures/gui/enchantment.png
-Processing texture: forestry:textures/gui/squeezersocket.png
-Detected new text stack trace class: de.ellpeck.actuallyadditions.mod.jei.booklet.BookletRecipeWrapper
+Processing texture: enderio:textures/gui/40/crusher.png
+Detected new text stack trace class: crazypants.enderio.base.integration.jei.energy.EnergyIngredientRenderer
+Detected new text stack trace class: crazypants.enderio.base.block.decoration.ItemBlockDecoration
+Detected new text stack trace class: mezz.jei.render.ItemStackFastRenderer
+Detected new text stack trace class: mezz.jei.render.IngredientListBatchRenderer
+Processing texture: enderio:textures/gui/40/alloy_smelter_auto.png
+Processing texture: enderio:textures/gui/40/simple_alloy_smelter.png
+Processing texture: appliedenergistics2:textures/guis/drive.png
+Detected new text stack trace class: appeng.client.gui.implementations.GuiDrive
+Detected new text stack trace class: vazkii.quark.client.feature.UsageTicker$TickerElement
+Detected new text stack trace class: vazkii.quark.client.feature.UsageTicker
+Detected new text stack trace class: java.util.ArrayList
+Detected new text stack trace class: net.minecraft.client.gui.inventory.GuiChest
+Detected new text stack trace class: com.feed_the_beast.ftblib.client.FTBLibClientEventHandler$Temp
+Detected new text stack trace class: com.feed_the_beast.ftblib.client.FTBLibClientEventHandler
+Processing texture: thermalexpansion:textures/gui/machine/transposer.png
+Processing texture: thermalexpansion:textures/gui/jei_handler.png
+Processing texture: enderio:textures/gui/40/vat.png
+Detected new text stack trace class: crazypants.enderio.machines.integration.jei.VatRecipeCategory$VatRecipeWrapper
 Detected new text stack trace class: mezz.jei.gui.recipes.RecipeLayout
+Detected new font color #808080 in class mezz.jei.gui.recipes.RecipesGui. Replaced to #808080
+Processing texture: enderio:textures/gui/40/tank.png
+Detected new text stack trace class: xaero.common.minimap.waypoints.render.WaypointsGuiRenderer
+Detected new text stack trace class: xaero.common.gui.GuiWaypoints$List
+Detected new text stack trace class: xaero.common.gui.GuiWaypoints
+Detected new text stack trace class: net.minecraft.client.gui.GuiNewChat
+Processing texture: thermalexpansion:textures/gui/machine/smelter.png
+Detected new text stack trace class: mezz.jei.plugins.jei.info.IngredientInfoRecipe
 Detected new font color #0 in class mezz.jei.gui.recipes.RecipesGui. Replaced to #0
+Detected new text stack trace class: mezz.jei.gui.elements.GuiIconToggleButton
+Processing texture: tconstruct:textures/gui/smeltery.png
+Processing texture: tconstruct:textures/gui/generic.png
+Processing texture: minecraft:textures/gui/container/furnace.png
+Processing texture: hammercore:textures/gui/def_widgets.png
+Detected new text stack trace class: com.zeitheron.hammercore.client.gui.impl.smooth.GuiFurnaceSmooth
+Detected new font color #555555 in class com.zeitheron.hammercore.client.gui.impl.smooth.GuiFurnaceSmooth. Replaced to #555555
+Detected new text stack trace class: mezz.jei.transfer.RecipeTransferErrorTooltip
+Detected new text stack trace class: mezz.jei.transfer.RecipeTransferErrorSlots
+Detected new text stack trace class: com.enderio.core.client.gui.GuiContainerBase
+Processing texture: enderio:textures/gui/jei.grinding_ball.png
+Detected new text stack trace class: crazypants.enderio.machines.integration.jei.SagMillGrindingBallCategory$GrindingBallWrapper
+Processing texture: botania:textures/gui/puredaisyoverlay.png
+Processing texture: botania:textures/gui/manahud.png
+Processing texture: appliedenergistics2:textures/guis/grinder.png
+Detected new text stack trace class: appeng.integration.modules.jei.GrinderRecipeWrapper
+Processing texture: actuallyadditions:textures/gui/gui_grinder.png
+Detected new text stack trace class: de.ellpeck.actuallyadditions.mod.jei.crusher.CrusherRecipeWrapper
 Processing texture: actuallyadditions:textures/gui/booklet/gui_booklet_gadgets.png
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.GuiHelper
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.misc.GuiSelectItemStack$ItemStackButton
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.Button
-Processing texture: enderio:textures/gui/40/widgetsv2.png
+Processing texture: thermalexpansion:textures/gui/machine/pulverizer.png
+Detected new text stack trace class: cofh.thermalexpansion.plugins.jei.machine.pulverizer.PulverizerRecipeWrapper
+Processing texture: integrateddynamicscompat:textures/gui/squeezer_gui_jei.png
+Processing texture: integrateddynamicscompat:textures/gui/mechanical_squeezer_gui_jei.png
+Processing texture: minecraft:textures/gui/toasts.png
+Detected new text stack trace class: net.minecraft.client.gui.toasts.AdvancementToast
+Detected new text stack trace class: net.minecraft.client.gui.toasts.GuiToast$ToastInstance
+Detected new text stack trace class: net.minecraft.client.gui.toasts.GuiToast
+Processing texture: thermaldynamics:textures/gui/connection.png
+Processing texture: cofh:textures/gui/elements/tab_right.png
+Detected new text stack trace class: cofh.thermaldynamics.gui.client.GuiDuctConnection
+Detected new text stack trace class: cofh.core.gui.GuiContainerCore
+Detected new text stack trace class: cofh.core.gui.element.tab.TabRedstoneControl
+Detected new text stack trace class: cofh.core.gui.element.tab.TabBase
+Processing texture: enderio:textures/gui/40/in_out_settings.png
+Detected new text stack trace class: crazypants.enderio.conduits.gui.BaseSettingsPanel
+Detected new text stack trace class: vazkii.quark.management.client.gui.GuiButtonTrash
+Detected new text stack trace class: invtweaks.InvTweaksGuiTooltipButton
+Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.misc.SimpleToast
+Processing texture: appliedenergistics2:textures/guis/interface.png
+Detected new text stack trace class: appeng.client.gui.implementations.GuiInterface
+Processing texture: immersiveengineering:textures/gui/blast_furnace.png
+Processing texture: mekanism:gui/guibasicmachine.png
+Processing texture: mekanism:gui/elements/guipowerbar.png
+Processing texture: mekanism:gui/elements/guiprogress.png
+Detected new text stack trace class: com.rwtema.extrautils2.crafting.jei.JEIResonatorHandler$ResonatorWrapper
+Processing texture: enderio:textures/gui/40/stirling_generator.png
+Detected new text stack trace class: crazypants.enderio.machines.integration.jei.StirlingRecipeCategory$StirlingRecipeWrapper
+Processing texture: projecte:textures/gui/arrow.png
+Detected new text stack trace class: moze_intel.projecte.integration.jei.collectors.FuelUpgradeRecipe
+Detected new text stack trace class: blusunrize.immersiveengineering.common.util.compat.jei.blastfurnace.BlastFurnaceFuelWrapper
+Processing texture: actuallyadditions:textures/gui/gui_nei_empowerer.png
+Detected new text stack trace class: com.buuz135.industrial.jei.petrifiedgen.PetrifiedBurnTimeWrapper
+Processing texture: mekanism:gui/nei/guiprc.png
+Processing texture: mekanism:gui/elements/guigaugestandard.png
+Processing texture: mekanism:gui/elements/guigaugesmall.png
+Processing texture: mekanism:gui/guimetallurgicinfuser.png
+Processing texture: thermalexpansion:textures/gui/device/factorizer.png
+Detected new text stack trace class: com.rwtema.extrautils2.crafting.jei.JEIMachine$JEIMachineRecipe$Wrapper
+Processing texture: thermalexpansion:textures/gui/machine/furnace.png
+Processing texture: ironchest:textures/gui/iron_container.png
+Detected new text stack trace class: mcp.mobius.waila.overlay.tooltiprenderers.TTRenderStack
+Processing texture: harvestcraft:textures/gui/presser.png
+Processing texture: enderio:textures/gui/40/painter.png
+Processing texture: jeresources:textures/gui/enchantment.png
+Detected new text stack trace class: vazkii.botania.client.core.handler.RenderLexicon
+Detected new text stack trace class: net.minecraft.client.renderer.ItemRenderer
+Detected new text stack trace class: vazkii.botania.common.lexicon.page.PageText
+Detected new text stack trace class: vazkii.botania.client.core.handler.HUDHandler
+Detected new text stack trace class: vazkii.botania.client.core.handler.TooltipAdditionDisplayHandler
+Processing texture: botania:textures/gui/lexicon.png
+Detected new text stack trace class: vazkii.botania.client.gui.lexicon.GuiLexicon
+Detected new text stack trace class: vazkii.botania.client.gui.lexicon.GuiLexiconEntry
+Detected new text stack trace class: vazkii.botania.client.core.helper.RenderHelper
+Detected new text stack trace class: vazkii.botania.client.gui.lexicon.button.GuiButtonPage
+Detected new text stack trace class: vazkii.botania.client.gui.lexicon.button.GuiButtonBookmark
+Detected new text stack trace class: vazkii.botania.client.gui.lexicon.button.GuiButtonBack
+Detected new text stack trace class: vazkii.botania.common.lexicon.page.PageTutorial
+Processing texture: botania:textures/gui/stencil.png
+Processing texture: botania:textures/gui/categories/basics.png
+Processing texture: botania:textures/gui/categories/botanicadds.png
+Processing texture: botania:textures/gui/categories/mana.png
+Processing texture: botania:textures/gui/categories/generationflowers.png
+Processing texture: botania:textures/gui/categories/functionalflowers.png
+Processing texture: botania:textures/gui/categories/devices.png
+Processing texture: botania:textures/gui/categories/tools.png
+Processing texture: botania:textures/gui/categories/baubles.png
+Processing texture: botania:textures/gui/categories/ender.png
+Processing texture: botania:textures/gui/categories/alfhomancy.png
+Processing texture: botania:textures/gui/categories/misc.png
+Processing texture: botania:textures/gui/categories/index.png
+Detected new font color #111111 in class vazkii.botania.client.gui.lexicon.GuiLexicon. Replaced to #111111
+Detected new font color #666666 in class vazkii.botania.client.gui.lexicon.GuiLexicon. Replaced to #666666
+Detected new font color #ffd200 in class vazkii.botania.client.gui.lexicon.GuiLexicon. Replaced to #ffd200
+Detected new text stack trace class: vazkii.botania.client.gui.lexicon.button.GuiButtonChallenges
+Detected new text stack trace class: vazkii.botania.client.gui.lexicon.button.GuiButtonHistory
+Detected new text stack trace class: vazkii.botania.client.gui.lexicon.button.GuiButtonScaleChange
+Detected new text stack trace class: vazkii.botania.client.gui.lexicon.button.GuiButtonAchievement
+Detected new text stack trace class: vazkii.botania.client.gui.lexicon.button.GuiButtonInvisible
+Detected new text stack trace class: vazkii.botania.client.gui.lexicon.GuiLexiconIndex
+Processing texture: botania:textures/gui/craftingoverlay.png
+Detected new text stack trace class: vazkii.botania.common.lexicon.page.PageRecipe
+Processing texture: botania:textures/gui/entries/flowers.png
+Detected new text stack trace class: vazkii.botania.common.lexicon.page.PageImage
+Detected new text stack trace class: vazkii.botania.common.lexicon.page.PageCraftingRecipe
+Processing texture: botania:textures/gui/entries/apothecary.png
+Processing texture: botania:textures/gui/entries/puredaisy.png
+Detected new text stack trace class: vazkii.botania.common.lexicon.page.PagePetalRecipe
+Processing texture: botania:textures/gui/petaloverlay.png
+Detected new text stack trace class: vazkii.botania.common.lexicon.page.PageManaInfusionRecipe
+Processing texture: botania:textures/gui/manainfusionoverlay.png
+Processing texture: botania:textures/gui/entries/spreader.png
+Detected new text stack trace class: vazkii.botania.common.lexicon.page.PageRuneRecipe
+Processing texture: botania:textures/gui/flowerbag.png
+Detected new text stack trace class: vazkii.botania.client.gui.bag.GuiFlowerBag
+Detected new font color #ff6666 in class vazkii.botania.client.gui.bag.GuiFlowerBag. Replaced to #ff6666
+Processing texture: ebwizardry:textures/gui/container/bookshelf.png
+Detected new text stack trace class: electroblob.wizardry.client.gui.GuiBookshelf
+Detected new text stack trace class: electroblob.wizardry.client.MixedFontRenderer
+Detected new text stack trace class: net.minecraft.client.gui.FontRenderer
+Detected new text stack trace class: vazkii.botania.common.block.tile.TileAltar
+Processing texture: tconstruct:textures/gui/toolstation.png
+Processing texture: tconstruct:textures/gui/icons.png
+Processing texture: tconstruct:textures/gui/panel.png
+Detected new text stack trace class: mezz.jei.plugins.vanilla.furnace.SmeltingRecipe
+Detected new text stack trace class: com.possibletriangle.tinkersjei.StatsWrapper
+Detected new font color #74c8c7 in class mezz.jei.gui.recipes.RecipesGui. Replaced to #74c8c7
+Detected new text stack trace class: java.util.HashMap
+Detected new text stack trace class: net.minecraft.network.play.server.SPacketRespawn
+Detected new text stack trace class: net.minecraft.client.renderer.entity.Render
+Detected new text stack trace class: net.minecraft.client.renderer.entity.RenderLivingBase
+Detected new text stack trace class: net.minecraft.client.renderer.entity.RenderLiving
+Detected new text stack trace class: net.minecraft.client.renderer.entity.RenderManager
+Processing texture: improvableskills:textures/gui/skills_gui_overlay.png
+Processing texture: improvableskills:textures/gui/xp_bank.png
+Processing texture: improvableskills:textures/gui/discord.png
+Processing texture: improvableskills:textures/gui/news.png
+Processing texture: improvableskills:textures/gui/skills_gui_paper.png
+Detected new text stack trace class: org.zeith.improvableskills.client.gui.GuiSkillViewer
+Processing texture: improvableskills:textures/gui/icons.png
+Detected new text stack trace class: org.zeith.improvableskills.client.rendering.ote.OTEFadeOutButton
+Detected new text stack trace class: org.zeith.improvableskills.client.rendering.OnTopEffects
+Processing texture: enderio:textures/gui/40/soul_fuser.png
+Detected new text stack trace class: crazypants.enderio.machines.integration.jei.SoulBinderRecipeCategory$SoulBinderRecipeWrapper
+Detected new font color #80ff20 in class mezz.jei.gui.recipes.RecipesGui. Replaced to #80ff20
+Processing texture: thermalexpansion:textures/gui/machine/insolator.png
+Detected new text stack trace class: cofh.thermalexpansion.plugins.jei.machine.insolator.InsolatorRecipeWrapper
+Processing texture: mysticalagriculture:textures/gui/seed_reprocessor_gui.png
+Processing texture: appliedenergistics2:textures/guis/inscriber.png
+Detected new text stack trace class: appeng.client.gui.implementations.GuiInscriber
+Detected new text stack trace class: appeng.client.gui.implementations.GuiGrinder
+Processing texture: appliedenergistics2:textures/guis/bus.png
+Detected new text stack trace class: appeng.client.gui.implementations.GuiUpgradeable
+Processing texture: actuallyadditions:textures/gui/gui_inventory.png
+Processing texture: actuallyadditions:textures/gui/gui_coal_generator.png
+Detected new text stack trace class: de.ellpeck.actuallyadditions.mod.util.AssetUtil
+Detected new text stack trace class: de.ellpeck.actuallyadditions.mod.inventory.gui.GuiCoalGenerator
+Detected new text stack trace class: crazypants.enderio.base.item.soulvial.ItemSoulVial
+Processing texture: minecraft:textures/gui/container/dispenser.png
+Detected new text stack trace class: net.minecraft.client.gui.inventory.GuiDispenser
+Detected new text stack trace class: vazkii.botania.common.block.tile.mana.TileSpreader
+Detected new text stack trace class: vazkii.botania.common.block.mana.BlockSpreader
+Detected new text stack trace class: vazkii.botania.common.core.handler.InternalMethodHandler
+Detected new text stack trace class: vazkii.botania.api.subtile.SubTileGenerating
+Detected new text stack trace class: vazkii.botania.common.block.tile.TileSpecialFlower
+Detected new text stack trace class: vazkii.botania.common.block.BlockSpecialFlower
+Detected new text stack trace class: vazkii.botania.common.block.tile.mana.TilePool
+Detected new text stack trace class: vazkii.botania.common.block.mana.BlockPool
+Detected new text stack trace class: slimeknights.tconstruct.tools.common.client.module.GuiSideInventory
+Detected new text stack trace class: vazkii.quark.misc.feature.ReacharoundPlacing
+Detected new text stack trace class: net.minecraft.client.gui.GuiMerchant
+Detected new text stack trace class: de.ellpeck.actuallyadditions.mod.jei.booklet.BookletRecipeWrapper
 Processing texture: actuallyadditions:textures/gui/booklet/gui_booklet.png
 Detected new text stack trace class: de.ellpeck.actuallyadditions.mod.booklet.gui.GuiBooklet
 Detected new text stack trace class: de.ellpeck.actuallyadditions.mod.booklet.gui.GuiPage
 Detected new text stack trace class: de.ellpeck.actuallyadditions.mod.util.StringUtil
-Detected new text stack trace class: de.ellpeck.actuallyadditions.mod.booklet.page.ItemDisplay
-Detected new text stack trace class: crazypants.enderio.base.block.decoration.ItemBlockDecoration
-Detected new text stack trace class: com.enderio.core.common.transform.EnderCoreMethods
-Detected new font color #a0a0a0 in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #a0a0a0
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.misc.GuiSelectItemStack$ButtonEditData
-Detected new font color #ff0000 in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #ff0000
-Detected new text stack trace class: mezz.jei.render.ItemStackFastRenderer
-Detected new text stack trace class: mezz.jei.render.IngredientListBatchRenderer
-Detected new text stack trace class: de.ellpeck.actuallyadditions.mod.booklet.button.BookmarkButton
-Detected new text stack trace class: de.ellpeck.actuallyadditions.mod.inventory.gui.TexturedButton
-Detected new font color #33aa33 in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #33aa33
-Detected new font color #6fe66f in class com.feed_the_beast.ftblib.lib.gui.GuiWrapper. Replaced to #6fe66f
-Processing texture: minecraft:textures/gui/toasts.png
-Detected new text stack trace class: com.feed_the_beast.ftblib.lib.gui.misc.SimpleToast
-Detected new text stack trace class: net.minecraft.client.gui.toasts.GuiToast$ToastInstance
-Detected new text stack trace class: net.minecraft.client.gui.toasts.GuiToast
-Processing texture: minecraft:textures/gui/presets/isles.png
-Detected new text stack trace class: com.rwtema.extrautils2.crafting.jei.JEIResonatorHandler$ResonatorWrapper
-Detected new font color #808080 in class mezz.jei.gui.recipes.RecipesGui. Replaced to #808080
-Detected new text stack trace class: mezz.jei.gui.elements.GuiIconToggleButton
-Detected new text stack trace class: mezz.jei.gui.overlay.bookmarks.BookmarkOverlay
-Detected new text stack trace class: mezz.jei.gui.overlay.bookmarks.LeftAreaDispatcher
-Detected new text stack trace class: net.minecraftforge.fml.client.config.GuiConfigEntries$ListEntryBase
-Detected new text stack trace class: net.minecraftforge.fml.client.config.GuiConfigEntries$ButtonEntry
-Detected new text stack trace class: net.minecraftforge.fml.client.config.GuiConfig
-Detected new text stack trace class: net.minecraftforge.fml.client.config.GuiConfigEntries$StringEntry
-Detected new text stack trace class: buildcraft.lib.client.render.font.SpecialColourFontRenderer
-Detected new text stack trace class: net.minecraft.client.gui.FontRenderer
+Detected new text stack trace class: xaero.common.graphics.CursorBox
+Detected new text stack trace class: xaero.common.gui.ScreenBase
+Processing texture: immersiveengineering:textures/gui/crate.png
+Detected new text stack trace class: blusunrize.immersiveengineering.client.gui.GuiCrate
+Processing texture: betteradvancements:textures/gui/widgets.png
+Processing texture: betteradvancements:textures/gui/window.png
+Processing texture: betteradvancements:textures/gui/tabs.png
+Detected new text stack trace class: betteradvancements.gui.GuiScreenBetterAdvancements
+Detected new text stack trace class: betteradvancements.gui.GuiBetterAdvancement
+Detected new text stack trace class: org.zeith.improvableskills.client.gui.GuiXPBank
+Processing texture: forestry:textures/gui/backpack.png
+Detected new text stack trace class: net.minecraft.client.gui.inventory.GuiCrafting
 Detected new text stack trace class: net.minecraft.client.gui.GuiIngameMenu

@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 0.5d,
+	dependencies: [
+		"356dd31c"
+	],
+	tasks: [{
+		uid: "0b0225b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "projecte:condenser_mk2"
+		}]
+	}]
+}

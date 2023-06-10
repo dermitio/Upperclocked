@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"Storing energy... Wirelessly."
+	],
+	dependencies: [
+		"199b459e"
+	],
+	tasks: [{
+		uid: "d700c981",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fluxnetworks:fluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "7b897213",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fluxnetworks:fluxstorage"
+		}
+	}]
+}

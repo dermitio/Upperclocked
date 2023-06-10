@@ -1,0 +1,82 @@
+{
+	title: "Void ore miner 1",
+	x: 2.0d,
+	y: -1.5d,
+	text: [
+		"The most basic one of all.",
+		"",
+		"This may feel painfull but the pain is just starting.",
+		"",
+		"Refer to the enviromental tech digital guide for any questions from now on for this mod.",
+		"",
+		"",
+		"DO NOT USE THE CYAN ONE FOR CRAFTING THE CONTROLLER !!!"
+	],
+	dependencies: [
+		"ab6d78d7"
+	],
+	tasks: [{
+		uid: "0858fa3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "environmentaltech:diode"
+		}]
+	},
+	{
+		uid: "32f2771f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "environmentaltech:litherite"
+		}],
+		count: 4L
+	},
+	{
+		uid: "989b1cd2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "environmentaltech:laser_lens"
+		}]
+	},
+	{
+		uid: "bada6f68",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "environmentaltech:interconnect"
+		}],
+		count: 2L
+	},
+	{
+		uid: "da4c2106",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "environmentaltech:void_ore_miner_cont_1"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "a6c96cb9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ironchest:iron_chest",
+			Damage: 2s
+		}
+	}]
+}

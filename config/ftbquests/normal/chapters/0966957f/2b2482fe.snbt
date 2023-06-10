@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: -0.5d,
+	dependencies: [
+		"0cdda5e6"
+	],
+	tasks: [{
+		uid: "65b5e5bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "integrateddynamics:mechanical_squeezer"
+		}]
+	}]
+}

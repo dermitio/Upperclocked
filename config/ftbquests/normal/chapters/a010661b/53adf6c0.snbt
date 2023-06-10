@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "ad34b204",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "opencomputers:wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 0.5d,
+	text: [
+		"Lets get some EMC."
+	],
+	dependencies: [
+		"d22b9bae"
+	],
+	tasks: [{
+		uid: "8aa4de5b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "projecte:alchemical_chest"
+		}]
+	}]
+}

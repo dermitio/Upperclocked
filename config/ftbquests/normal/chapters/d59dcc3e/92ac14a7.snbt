@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: -1.5d,
+	dependencies: [
+		"d22b9bae"
+	],
+	tasks: [{
+		uid: "a6ceeba9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "projecte:item.pe_matter"
+		}]
+	}]
+}

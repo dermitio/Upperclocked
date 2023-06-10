@@ -1,0 +1,35 @@
+{
+	x: 2.0d,
+	y: -0.5d,
+	text: [
+		"PC --> Phone = Transmution table --> Transmution Tablet"
+	],
+	dependencies: [
+		"42fd437b",
+		"92ac14a7"
+	],
+	min_width: 30,
+	tasks: [{
+		uid: "f871d647",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "projecte:item.pe_transmutation_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "560214c0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "projecte:item.pe_matter"
+		},
+		count: 4
+	}]
+}

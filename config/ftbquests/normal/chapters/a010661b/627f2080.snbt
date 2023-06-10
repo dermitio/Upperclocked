@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: -7.0d,
+	tasks: [{
+		uid: "08fc33d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "opencomputers:screen3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

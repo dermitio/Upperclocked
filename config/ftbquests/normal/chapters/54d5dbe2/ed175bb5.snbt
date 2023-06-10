@@ -1,0 +1,22 @@
+{
+	title: "Seasons !",
+	x: -1.5d,
+	y: -3.5d,
+	text: [
+		"Have you noticed the \"Fertile Season\" under the seeds ?",
+		"",
+		"Those are what seasons that plant can grow in !",
+		"",
+		"You can use a season clock to see what season you are in."
+	],
+	tasks: [{
+		uid: "26ac2bae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "sereneseasons:season_clock"
+		}]
+	}]
+}

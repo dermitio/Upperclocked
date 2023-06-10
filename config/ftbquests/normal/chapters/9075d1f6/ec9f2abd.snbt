@@ -1,0 +1,17 @@
+{
+	x: -11.5d,
+	y: 3.5d,
+	dependencies: [
+		"0999336d"
+	],
+	tasks: [{
+		uid: "ceafbcce",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:energy_acceptor"
+		}]
+	}]
+}

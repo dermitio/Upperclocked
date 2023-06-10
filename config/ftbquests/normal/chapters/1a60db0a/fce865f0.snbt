@@ -69,5 +69,15 @@
 			id: "simpleores:adamantium_ingot"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "bba4b874",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "inventorypets:pingot_pet"
+		}
 	}]
 }

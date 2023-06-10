@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: -2.5d,
+	text: [
+		"Ever wanted to dry things but never understood why the sun couldn't do it ?",
+		"",
+		"Now it does."
+	],
+	dependencies: [
+		"38f70941"
+	],
+	tasks: [{
+		uid: "39beac39",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "integrateddynamics:drying_basin"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: -5.0d,
+	text: [
+		"To crush materials into dust you need this guy.",
+		"",
+		"You can also double your metals by putting the ores inside."
+	],
+	dependencies: [
+		"01ca268d"
+	],
+	tasks: [{
+		uid: "522f78e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_grinder"
+		}]
+	}]
+}

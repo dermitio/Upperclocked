@@ -1,0 +1,13 @@
+{
+	title: "Ready for pain ?",
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5d0392cb",
+		type: "checkmark",
+		title: "YES."
+	}]
+}

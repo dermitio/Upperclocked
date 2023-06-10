@@ -1,0 +1,39 @@
+{
+	title: "LitherPAIN",
+	x: 1.0d,
+	y: -1.5d,
+	text: [
+		"I am so sorry for you....",
+		"",
+		"BUT !",
+		"",
+		"This will be a great start at a magnificent piece of tech.",
+		"",
+		"We will make a void ore miner to mine recources from bedrock."
+	],
+	dependencies: [
+		"57ba9da6"
+	],
+	tasks: [{
+		uid: "46422081",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "environmentaltech:litherite_crystal"
+		}],
+		count: 144L
+	}],
+	rewards: [{
+		uid: "36791029",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "environmentaltech:laser_lens_colored",
+			Damage: 9s
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	text: [
+		"Let us change that to this with the great philosophers stone !"
+	],
+	dependencies: [
+		"446fc322"
+	],
+	tasks: [{
+		uid: "db692ed5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

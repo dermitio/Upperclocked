@@ -9,7 +9,7 @@
 			id: "thermaldynamics:duct_16",
 			Damage: 1s
 		},
-		count: 32
+		count: 34
 	},
 	{
 		item: {
@@ -18,7 +18,7 @@
 			},
 			id: "thermaldynamics:duct_0"
 		},
-		count: 32
+		count: 34
 	},
 	{
 		item: {
@@ -27,7 +27,7 @@
 			},
 			id: "thermaldynamics:duct_16"
 		},
-		count: 32
+		count: 34
 	},
 	{
 		item: {
@@ -36,7 +36,7 @@
 			},
 			id: "thermaldynamics:duct_32"
 		},
-		count: 32
+		count: 34
 	},
 	{
 		item: {
@@ -46,6 +46,6 @@
 			id: "thermaldynamics:duct_32",
 			Damage: 1s
 		},
-		count: 32
+		count: 34
 	}]
 }

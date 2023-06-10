@@ -1,0 +1,30 @@
+{
+	x: -10.5d,
+	y: -4.0d,
+	text: [
+		"MOAR STORAGE !"
+	],
+	dependencies: [
+		"442d2698"
+	],
+	tasks: [{
+		uid: "03f3a389",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_giant_chest_large"
+		}]
+	}],
+	rewards: [{
+		uid: "781e2fa6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_medium_to_large_crate_upgrade"
+		}
+	}]
+}

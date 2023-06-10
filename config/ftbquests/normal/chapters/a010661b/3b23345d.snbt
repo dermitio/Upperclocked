@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: -7.0d,
+	dependencies: [
+		"3d2b741f"
+	],
+	tasks: [{
+		uid: "84584458",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "opencomputers:keyboard"
+		}]
+	}]
+}

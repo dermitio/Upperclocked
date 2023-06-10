@@ -21,13 +21,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "ebc3130a",
+		uid: "f8ec4e06",
 		type: "item",
 		item: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "actuallyadditions:item_small_to_medium_crate_upgrade"
+			id: "actuallyadditions:item_chest_to_crate_upgrade"
 		}
 	}]
 }

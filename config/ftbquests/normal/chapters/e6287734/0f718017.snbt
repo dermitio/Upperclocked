@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "30e7199c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "torchmaster:mega_torch"
+		}]
+	}]
+}

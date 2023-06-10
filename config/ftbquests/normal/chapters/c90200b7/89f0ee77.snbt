@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: "f45ddfd4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "immersiveengineering:metal_device1",
+			Damage: 3s
+		}]
+	}]
+}

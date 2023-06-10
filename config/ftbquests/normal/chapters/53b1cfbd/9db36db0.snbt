@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "abdbec87",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 21s
+		}]
+	}]
+}

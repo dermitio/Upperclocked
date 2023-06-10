@@ -1,0 +1,31 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		"Elevators will teleport you between each other by jumping/crouching.",
+		"",
+		"Elevators must be placed on the same x and z axis and y can be 32 blocks apart."
+	],
+	tasks: [{
+		uid: "5562d9d1",
+		type: "item",
+		title: "Elevator",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				Parent: {
+					data: "blockElevator",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockElevator"
+				}
+			}
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	}]
+}

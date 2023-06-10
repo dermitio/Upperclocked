@@ -1,0 +1,23 @@
+{
+	title: "Your first \"virtual\" PC",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"Do you love building PCs ?",
+		"",
+		"No ? Oh well because we will build some."
+	],
+	dependencies: [
+		"a2d77ec7"
+	],
+	tasks: [{
+		uid: "7feb440e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "opencomputers:case1"
+		}]
+	}]
+}

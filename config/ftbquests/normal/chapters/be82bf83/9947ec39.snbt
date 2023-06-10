@@ -29,5 +29,16 @@
 			id: "enderstorage:ender_storage"
 		},
 		count: 2
+	},
+	{
+		uid: "2183ec04",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftcore:marker_volume"
+		},
+		count: 8
 	}]
 }

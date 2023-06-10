@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "dc7367e1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "projecte:collector_mk3"
+		}]
+	}]
+}

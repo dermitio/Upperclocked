@@ -22,5 +22,17 @@
 			},
 			id: "buildcraftfactory:pump"
 		}]
+	}],
+	rewards: [{
+		uid: "c38a25a3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "chickenchunks:chunk_loader",
+			Damage: 1s
+		},
+		count: 3
 	}]
 }

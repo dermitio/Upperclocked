@@ -1,0 +1,42 @@
+{
+	title: "Natures energy",
+	x: 4.5d,
+	y: -3.0d,
+	text: [
+		"Just a basic battery made from menril.",
+		"",
+		"Can be upgraded."
+	],
+	dependencies: [
+		"6f43bc78",
+		"0cdda5e6"
+	],
+	tasks: [{
+		uid: "33e12046",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "integrateddynamics:energy_battery",
+			tag: {
+				energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9bbaddf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "integrateddynamics:energy_battery",
+			tag: {
+				energy: 0
+			}
+		}
+	}]
+}

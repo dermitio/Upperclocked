@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	text: [
+		"Wireless charging ?",
+		"",
+		"Yes please !"
+	],
+	dependencies: [
+		"199b459e"
+	],
+	tasks: [{
+		uid: "91804d23",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fluxnetworks:fluxcontroller"
+		}]
+	}]
+}

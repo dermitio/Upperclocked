@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"MORE ENERGY !"
+	],
+	dependencies: [
+		"da3d5124"
+	],
+	tasks: [{
+		uid: "15fd9017",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fluxnetworks:herculeanfluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "2a1a2cf9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fluxnetworks:herculeanfluxstorage"
+		}
+	}]
+}

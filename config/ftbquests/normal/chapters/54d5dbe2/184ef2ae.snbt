@@ -1,0 +1,30 @@
+{
+	title: "WORMS",
+	x: -3.0d,
+	y: -3.5d,
+	text: [
+		"Worms can make the soil fertile for you and maybe grow the crops in range a bit faster ;D",
+		"",
+		"(Range is 3x3)"
+	],
+	tasks: [{
+		uid: "b7f32b1e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_worm"
+		}]
+	}],
+	rewards: [{
+		uid: "f0d4139b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_worm"
+		}
+	}]
+}

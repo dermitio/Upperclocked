@@ -1,0 +1,20 @@
+{
+	x: -12.5d,
+	y: 4.5d,
+	text: [
+		"This guy is a savior of life since charged quartz is extremly rare."
+	],
+	dependencies: [
+		"0999336d"
+	],
+	tasks: [{
+		uid: "3cd8cb05",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:charger"
+		}]
+	}]
+}

@@ -1,6 +1,10 @@
 {
+	title: "Refined Storage",
 	x: -12.5d,
 	y: 1.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"d4153988"
 	],
@@ -17,5 +21,48 @@
 			}
 		}],
 		ignore_nbt: 1b
+	},
+	{
+		uid: "66c88096",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "refinedstorage:disk_drive"
+		}]
+	},
+	{
+		uid: "750e1b75",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "refinedstorage:cable"
+		}],
+		count: 16L
+	},
+	{
+		uid: "9a0d31dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "refinedstorage:grid",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "8d863a59",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:diamond"
+		},
+		count: 8
 	}]
 }

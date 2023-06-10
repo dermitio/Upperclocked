@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"OPEN A BLACK HOLE WITH ENERGY !!!"
+	],
+	dependencies: [
+		"84244320"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "c5a15e1e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fluxnetworks:gargantuanfluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "4a714986",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fluxnetworks:gargantuanfluxstorage"
+		}
+	}]
+}

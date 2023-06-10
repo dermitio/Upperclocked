@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"3d2b741f"
+	],
+	tasks: [{
+		uid: "ff74d058",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "opencomputers:case2"
+		}]
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: -12.5d,
+	y: -7.5d,
+	text: [
+		"Welcome to Tetra.",
+		"",
+		"Tetra is a TC like mod where you can make tools out of a bunch of metarials.",
+		"",
+		"refer to the holosphere for metarial stats."
+	],
+	dependencies: [
+		"e81f565d"
+	],
+	tasks: [{
+		uid: "b84c97a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tetra:duplex_tool_modular",
+			tag: {
+				"duplex/basic_hammer_right_material": "basic_hammer/log",
+				"duplex/basic_hammer_left_material": "basic_hammer/log",
+				"duplex/handle": "duplex/basic_handle",
+				"duplex/head_left": "duplex/basic_hammer_left",
+				"duplex/basic_handle_material": "basic_handle/stick",
+				"duplex/head_right": "duplex/basic_hammer_right"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

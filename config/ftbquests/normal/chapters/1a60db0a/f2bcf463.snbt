@@ -1,0 +1,23 @@
+{
+	title: "Chicken Chunks",
+	x: -2.5d,
+	y: 0.5d,
+	text: [
+		"Chunk loader will keep in its area working even if you are in a different dimention.",
+		"",
+		"You should invest in this guy ASAP."
+	],
+	dependencies: [
+		"57ba9da6"
+	],
+	tasks: [{
+		uid: "5d37f154",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "chickenchunks:chunk_loader"
+		}]
+	}]
+}

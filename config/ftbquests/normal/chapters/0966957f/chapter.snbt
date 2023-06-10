@@ -1,0 +1,12 @@
+{
+	title: "Integrated dynamics",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "integrateddynamics:menril_sapling"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
